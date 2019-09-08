@@ -55,10 +55,13 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |Dokustream      |dokustream.org     |25.04.2017 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Filmmerstube    |filmmerstube.com   |21.08.2016 |
-|Foxx 		 |foxx.to 	     |24.08.2017 | 
+|Foxx 		 |foxx.to 	     |24.08.2017 |
+|Freikino        | freikino.com	     |24.07.2019 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
+|HD-Streams      |hdstreams.to	     |08.09.2019 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
 |HDStreamFilme   |hdstreamfilme_com  |04.06.2019 |
+|HDStreamFilme   |hdstreamfilme.com  |24.07.2019 |
 |iLoad 		 |iload.to 	     |27.11.2016 |
 |Kindertube  	 |kindertube.de      |13.03.2017 |
 |Kino		 |kino.cx	     |26.08.2018 |
@@ -188,7 +191,7 @@ Hier die Markierung „gesehene Filme“ deaktivieren!
 
 ***Wenn Ihr  xStream Repo (v.1.0.5)  installiert habt, müsst Ihr in den xStream Einstellungen das Update auf nightly stellen um folgende Funktionen zu erhalten***
 
-Seit xStream 2.2.0 und in der Nightly Version, gibt es in den Einstellungen folgende Funktionen:
+Seit xStream 2.2.0 gibt es in den Einstellungen folgende Funktionen:
 
  **Auto-Update Funktion**
  
@@ -211,6 +214,20 @@ Diese xStream Auto-Update Funktion arbeitet Unabhängig von den KODI Einstellung
 Wenn in Kodi unter: 
 
 Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird xStream trotzdem aktualisiert
+
+**URLResolver Nightly Update**
+
+Für den URLResolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
+
+In xStream selbst ist dies leider nicht möglich, dazu wird ein eigens Addon benötig
+
+Dieses Addon heißt *Addons Updater* und ist in der xStream Repo (Programm Addons) zu finden
+
+Es kann direkt aus der xStream Repo installiert werden
+
+Im Anschluss *Addons Updater* (in Kodi unter Programme) öffnen und auf das URLResolver Symbol klicken. Das Nightly Update wird nun durchgeführt und endet mit einem Popupfenster wo der aktuelle Stand angezeigt wird
+
+Beachtet an dieser Stelle, dass *Nighly's* auch Fehler enthalten können
 
 ### 2.3 Webseiten Aktivieren und Deaktivieren
 
