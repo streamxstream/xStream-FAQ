@@ -49,29 +49,25 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |:-------------- |:----------------- |:--------- |
 |Alleserien  	 |alleserien.com     |07.09.2018 |
 |Animes-Stream24 |as.animes-stream24.tv |01.09.2017|
-|Cinemaxx        |cinemaxx.cc  	     |13.06.2018 |
 |Cinenator	 |cinenator.to	     |10.11.2018 |
 |DirectDownLoad  |ddl.me             |09.04.2016 |
 |Dokustream      |dokustream.org     |25.04.2017 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Filmmerstube    |filmmerstube.com   |21.08.2016 |
-|Foxx 		 |foxx.to 	     |24.08.2017 |
 |Freikino        | freikino.com	     |24.07.2019 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
 |HD-Streams      |hdstreams.to	     |08.09.2019 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
-|HDStreamFilme   |hdstreamfilme_com  |04.06.2019 |
 |HDStreamFilme   |hdstreamfilme.com  |24.07.2019 |
 |iLoad 		 |iload.to 	     |27.11.2016 |
 |Kindertube  	 |kindertube.de      |13.03.2017 |
 |Kino		 |kino.cx	     |26.08.2018 |
 |Kinoger         |kinoger.com	     |21.02.2018 | 
 |KinoX           |kinox.to           |09.04.2016 |
+|KKiste  	 |kkiste.co  	     |04.10.2019 |
 |Movie4k         |movie4k.to         |09.04.2016 |
 |Moviedream      |moviedream.ws      |10.12.2018 |
 |Moviestream	 |movie-stream.eu    |10.11.2018 |
-|MovieTown	 |movietown.org      |27.11.2016 |
-|MyKino          |mykino.to          |29.10.2016 |
 |Netzkino	 |netzkino.de  	     |30.04.2017 |
 |SerienStream 	 |serienstream.to    |26.10.2016 |
 |StreamIt        |streamit.ws        |19.09.2016 |   
@@ -284,7 +280,7 @@ Die Deaktivierung diese Features kann auf leistungsschwachen System (z.B. RPi) e
 
 Ich würde die Deaktivierung Empfehlen, da es nicht wirklich notwendig ist (und manchmal für Fehler verantwortlich ist)
 
-***Anmerkung zu den Hostern Openload (HD), TheVideo, Flashx:***
+***Anmerkung zu den Hostern TheVideo, Flashx usw.:***
 
 Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen
 
@@ -294,7 +290,7 @@ Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV
 
 Für Flashx müsst Ihr Euch auf Flashx.tv ein Benutzerkonto anlegen, dafür kann auch eine Wegwerf E-Mailadresse verwendet werden
 
-Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von openload (http://olpair.com/) bzw. thevideo (https://tvad.me/pair) bzw. bei flashx (https://www.flashx.tv/pair)
+Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von z.B. flashx (https://www.flashx.tv/pair)
 
 (Klickt in dem Kasten bei “Ich bin kein Roboter”)
 
