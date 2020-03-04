@@ -54,12 +54,9 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |Dokustream      |dokustream.org     |25.04.2017 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Filmmerstube    |filmmerstube.com   |21.08.2016 |
-|Freikino        | freikino.com	     |24.07.2019 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
 |HD-Streams      |hdstreams.to	     |08.09.2019 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
-|HDStreamFilme   |hdstreamfilme.com  |24.07.2019 |
-|iLoad 		 |iload.to 	     |27.11.2016 |
 |Kindertube  	 |kindertube.de      |13.03.2017 |
 |Kino		 |kino.cx	     |26.08.2018 |
 |Kinoger         |kinoger.com	     |21.02.2018 | 
@@ -68,6 +65,7 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |Movie4k         |movie4k.to         |09.04.2016 |
 |Moviedream      |moviedream.ws      |10.12.2018 |
 |Moviestream	 |movie-stream.eu    |10.11.2018 |
+|Movietown       |movietown.org	     |05.12.2019 |
 |Netzkino	 |netzkino.de  	     |30.04.2017 |
 |SerienStream 	 |serienstream.to    |26.10.2016 |
 |StreamIt        |streamit.ws        |19.09.2016 |   
@@ -141,20 +139,15 @@ Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 
 *Fehler können daher vorhanden sein.*
 
-Alternativer Download der Repository: SuperRepo
-
-(nicht zu Empfehlen, da es von dieser Quelle mit xStream immer Probleme gibt und die Dateien dort veraltet sind)
-
-
 ***WICHTIG / Achtung:*** 
 
-Jedoch muss an dieser Stelle klar darauf hingewiesen werden, dass unter der alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!
+An dieser Stelle wird klar darauf hingewiesen, dass bei alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!!!
 
  - Repo Installieren:
 
 - öffne die Kategorie Addons
 - aus zip installieren
-- Downloadordner suchen und installieren
+- Download Ordner suchen und installieren
 
  - Nach dem das Repo Installiert wurde ist noch folgendes zu machen:
 
@@ -167,7 +160,7 @@ Jedoch muss an dieser Stelle klar darauf hingewiesen werden, dass unter der alte
   hier Lastship Libraries Repository aktivieren
   (dann wird der URL-Resolver automatisch aktualisiert)
 
-Im Anschluss kann dann das xStream „Autoupdate“ gemacht werden (muss aber nicht), wie unten Beschrieben
+Im Anschluss kann dann das xStream "Autoupdate“ gemacht werden (muss aber nicht), wie unten Beschrieben
 
 ### 2.2 Allgemeine Einstellungen
 
@@ -187,8 +180,6 @@ Hier die Markierung „gesehene Filme“ deaktivieren!
 
 ***Wenn Ihr  xStream Repo (v.1.0.5)  installiert habt, müsst Ihr in den xStream Einstellungen das Update auf nightly stellen um folgende Funktionen zu erhalten***
 
-Seit xStream 2.2.0 gibt es in den Einstellungen folgende Funktionen:
-
  **Auto-Update Funktion**
  
 Diese installiert automatisch Änderungen *an Seiten* usw., welche auf der Entwicklerplattform (Github) durchgeführt werden
@@ -199,11 +190,7 @@ Dadurch werden Fehler/Bugs/Error, schnell & einfach behoben
 
 Als Standard ist aktiviert eingestellt
 
-Dieses Auto-Update wird nur ausgeführt, wenn es aktiviert ist und man das xStream Addon öffnet:
-
-*Desktop- Videos -Addons- Video Addons- xStream*
-
-*Kodi17: Desktop- Addons- xStream*
+Dieses Auto-Update wird nur ausgeführt mit dem Kodi Start und wird durch eine Meldung auch angezeigt
 
 Diese xStream Auto-Update Funktion arbeitet Unabhängig von den KODI Einstellungen
 
@@ -215,13 +202,9 @@ Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS g
 
 Für den URLResolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
-In xStream selbst ist dies leider nicht möglich, dazu wird ein eigens Addon benötig
+Als Standard ist deaktiviert eingestellt
 
-Dieses Addon heißt *Addons Updater* und ist in der xStream Repo (Programm Addons) zu finden
-
-Es kann direkt aus der xStream Repo installiert werden
-
-Im Anschluss *Addons Updater* (in Kodi unter Programme) öffnen und auf das URLResolver Symbol klicken. Das Nightly Update wird nun durchgeführt und endet mit einem Popupfenster wo der aktuelle Stand angezeigt wird
+Im Menü Einstellungen- Allgemein kann es aktiviert werden
 
 Beachtet an dieser Stelle, dass *Nighly's* auch Fehler enthalten können
 
