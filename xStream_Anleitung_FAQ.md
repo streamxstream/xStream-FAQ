@@ -494,6 +494,20 @@ Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](htt
 
 ### 3.5 Fehlermeldungen im Betrieb
 
+- **AlleSerien kein Menüeintrag (Serien z.B. Neustes Release ) vorhanden**
+
+Und zwar gibt es ab und zu bei AlleSerien einen Fehler
+
+Da steht dannn z.B. bei Serien / Neustes Release, *xStream Es wurde kein Eintrag gefunden*, nach ein paar Minuten funktionierts wieder
+
+Über die Suche ist aber alles zu finden
+
+Das liegt leider an der Seite. Wenn diese recht ausgelastet ist, dann kommt der Fehler
+
+Ist auch bei den Hoster von der Seite so
+
+Da kann man leider nichts machen als warten
+
 - **ImportError:** Bad magic number in bs_finalizer.pyo
 
 	- Status: Problem behoben (Master)
