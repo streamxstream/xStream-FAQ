@@ -263,7 +263,7 @@ Die Deaktivierung diese Features kann auf leistungsschwachen System (z.B. RPi) e
 
 Ich würde die Deaktivierung Empfehlen, da es nicht wirklich notwendig ist (und manchmal für Fehler verantwortlich ist)
 
-***Anmerkung zu den Hostern TheVideo, Flashx usw.:***
+***Anmerkung zu den Hostern Jetload TheVideo, Flashx usw.:***
 
 Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen
 
@@ -274,6 +274,8 @@ Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV
 Für Flashx müsst Ihr Euch auf Flashx.tv ein Benutzerkonto anlegen, dafür kann auch eine Wegwerf E-Mailadresse verwendet werden
 
 Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von z.B. flashx (https://www.flashx.tv/pair)
+
+Bei Jetload ist das folgende Pairing Seite: https://jlpair.net/
 
 (Klickt in dem Kasten bei “Ich bin kein Roboter”)
 
