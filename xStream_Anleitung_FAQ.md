@@ -198,6 +198,12 @@ Wenn in Kodi unter:
 
 Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird xStream trotzdem aktualisiert
 
+Bei Problemen mit dem Update konnte man sich ja meist damit behelfen unter userdata die 'update_sha' zu löschen. Somit kam es dann zu einem erzwungenen, vollständigen Update
+
+Die neue Option (rot) in den Einstellungen macht genau dieses Löschen. Nach dem Update wird diese Einstellung automatisch wieder auf "off" gesetzt!
+
+**ACHTUNG! - Diese Funktion ist nur bei manuellem Update ( Nightly Update) aktiv!**
+
 **URLResolver Nightly Update**
 
 Für den URLResolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
