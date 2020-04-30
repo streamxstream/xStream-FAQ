@@ -502,6 +502,16 @@ Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](htt
 
 ### 3.5 Fehlermeldungen im Betrieb
 
+- **Problem mit HDFilme in xStream**
+
+Wenn ich einen Film gucke springt der Film regelmäßig um ca. 1 Sekunde nach vorn
+
+Das passiert so alle 1-2 Minuten und ist natürlich störend
+
+Das Problem ist eigentlich in jedem Kodi Forum bekannt, und ist bei HDFilme Server 0
+
+Das Problem kann man aktuell leider nicht lösen
+
 - **AlleSerien kein Menüeintrag (Serien z.B. Neustes Release ) vorhanden**
 
 Und zwar gibt es ab und zu bei AlleSerien einen Fehler
