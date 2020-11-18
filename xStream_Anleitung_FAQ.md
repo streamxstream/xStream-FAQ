@@ -16,7 +16,7 @@
     - [2.5 Metadaten](#25-metadaten)
     - [2.6 Autoplay Funktion](#26-autoplay-funktion)
     - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
-    - [2.8 Downloads](#28-downloads]
+    - [2.8 Downloads](#28-downloads)
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
