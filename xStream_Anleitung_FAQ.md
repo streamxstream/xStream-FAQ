@@ -16,7 +16,6 @@
  - [2.5 Metadaten](#25-metadaten)
  - [2.6 Autoplay Funktion](#26-autoplay-funktion)
  - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
- - [2.8 Gemeinsamer gesehen Status in xStream und Lastship](#28-gemeinsamer-gesehen-status-in-xstream-und-lastship)
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
@@ -315,6 +314,10 @@ Ermöglicht eine relativ konsistente Verwendung der "gesehen" Markierung
 
 ### 2.6 Autoplay Funktion
 
+Zu finden in der Kategorie *Allgemein*
+
+Hosterauswahl muss hierzu auf *Auto* stehen
+
 Ist diese Option aktiviert, wird keine Hosterliste angezeigt
 
 xStream probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgespielt werden kann
@@ -335,51 +338,11 @@ Ist Best eingestellt,  wir immer der beste verfügbare Stream gewählt
 
 ### 2.7 Zentralisierte Einstellungen
 
+Zu finden in der Kategorie Allgemein
+
 Wenn AUS: werden im Hauptmenü 3 Ordner (Globale Suche, xStream Einstellungen, Resolver Einstellungen) angezeigt
 
 Wenn EIN: wird nur Globale Suche & Einstellungen angezeigt
-
-Einstellungen beinhaltet xStream Einstellungen & Resolver Einstellungen
-
-### 2.8 Gemeinsamer gesehen Status in xStream und anderen derartigen Video Addons
-
-Dies ist möglich über bzw. durch die Verwendung des Metahandlers
-
-In xStream muss dieser aktiviert werden:
-
-xStream-Einstellungen-KATEGORIE Allgemein- Metadaten-Metahandler verwenden aktivieren (nur diesen Eintrag)
-
-Wenn Ihr das gemacht habt, müssen jedoch die Favoriten von xStream neu gesucht und gespeichert werden
-
-Nachdem der Metahandler aktiviert wurde,erscheint in der xStream Oberfläche ein weiterer Menüpunkt (Metahandler-Einstellungen),diesen öffnen
-
-*Kategorie:* Metahandler
-
-Hier kann der Speicherort der Datenbank geändert werden (ist  aber eigentlich nicht notwendig diesen zu ändern)
-
-*Kategorie:* TMDB
-
-Language: Deutsch
-
-Poster Size & Backdrop Size: original
-
-*Kategorie TVDB:*
-
-Language: Deutsch
-
-OK. Das wars
-
-*Der große Vorteil bei dieser Anwendung ist jener:*
- 
-Wenn Ihr jetzt in xStream einen Stream "gesehen" habt, ist dieser auch in andern Addons "gesehen", und auch umgekehrt
- 
-Dabei macht es keinen Unterschied mit welcher Seite in xStream (bs.to , serienstrem.to usw.) Ihr den Stream abspielt oder anschauen wollt
-
-Der "gesehen Status" (watched state), kann auch exportiert und auf einem anderen System imortiert werden 
-
-Dazu muss die *video_cache.db* Datei von folgendem Pfad auf das andere System (gleicher Pfad) übertragen werden:
-
- .....kodi/userdata/addon_data/skript.module.metahandler/meta_cache/video_cache.db
 
 
 ## 3. Bekannte Probleme
@@ -393,6 +356,8 @@ Log, Kodi Version, Betriebssystem, xStream Version, genaue Fehlerbeschreibung!
 Bitte, schauen, ob der Fehler in einem früheren Post schon beantwortet wurde!
 
 Es kann auch eine fehlerhafte Datei vorliegen, oder die .zip ist falsch aufbereitet
+
+Hilfe bei Probleme bekommt Ihr auf Gitter oder auch im Forum Kodiman
 
 **xStream kann nicht aus der aktuellen Repo installiert werden**
 
@@ -414,7 +379,7 @@ Diese ist hier zum Downloaden [Link](https://github.com/streamxstream/xStreamRep
 
 Falls bei der Globalen Suche eine Fehlermeldung bekommen, dass eine Seite nicht erreichbar war bzw. die Suche durch eine Meldung unterbrochen wurde, liegt dies meist an der Seite
 
-Meistens sind die Seiten in diesem Moment nicht erreichbar, einfach abwarten
+Meistens sind die Seiten in diesem Moment nicht erreichbar, einfach abwarten und die betroffene Seite deaktivieren
 
 Es kann auch vorkommen, dass bei der Globalen Suche keine Treffer angezeigt werden, dann bitte in der gewünschten Seite die Suche nutzen (manchmal stören die Seiten, die Globale Suche)
 
@@ -426,9 +391,9 @@ Das kann verschiedene Ursachen haben. Meistens liegt es jedoch an der eigentlich
 
 Denn wenn dort auch nur eine Kleinigkeit geändert wird, kann es schon sein, dass  das Site-Plugin nicht mehr geht
 
-Die Entwickler wissen es meist und arbeiten an einer Lösung
+Die Entwickler wissen es meistens und sind um eine Lösung bemüht. Es kann aber NICHT immer *sofort* eine Seitenproblem behoben werden
 
-Das Update wird dann, wenn es in xStream eingestellt wurde, automatisch installiert 
+Das Update wird dann, wenn die Funktion in xStream aktiviert wurde, automatisch installiert 
 
 Die Seite im Browser aufrufen und auf Funktion überprüfen
 
@@ -436,7 +401,7 @@ Im Anschluss das Problem schildern
 
 Bitte Sachlich bleiben und nicht jammern!
 
-*Für die Streaming-Seiten kinox.to und movie4k.to können in den Einstellungen alternative Domäne bestimmt werden. Nutzen sie diese falls die Seiten nicht zu erreichen sind!*
+*Für die Streaming-Seiten kinox.to usw. können in den Einstellungen alternative Domäne bestimmt werden. Nutzen sie diese falls die Seiten nicht zu erreichen sind!*
 
 ### 3.4 URL Resolver Fehler
 
@@ -454,21 +419,21 @@ oder der Ladekreis ist kurz sichtbar aber kein Stream wird abgespielt
 
 Normale Streams laufen hingegen ohne Probleme
 
-Eine mögliche Lösung (die schon Erfolge gezeigt hat)ist folgende:
+Eine mögliche Lösung (die schon Erfolge gezeigt hat) ist folgende:
 
-Im URLReslover die Cache Funktion auf AUS schalten
+Im URLReslover die *Cache Funktion benutzen* auf AUS schalten
 
 Erreichbar direkt über xStream:
 
-URLResolver Einstellungen
+xStream öffnen - Einstellungen - URLResolver Einstellungen
 
-Eventuell noch Cache Funktion zurücksetzen klicken
+Eventuell noch *Cache Funktion zurücksetzen* klicken
 
-**Ein Hoster (z.B. vidto) geht bei allen nur bei Euch nicht**
+**Ein Hoster (z.B. vivo.sx) geht bei allen nur bei Euch nicht**
 
-Das kann an einer falschen Installation des URL Resolver liegen 
+Das kann an einer falschen Installation des URLResolver liegen 
 
-(z.B. das "-master" wurde nicht entfernt bei Downloads von GitHub vor der Installation oder URLResolver ist 2 mal vorhanden usw.)
+(z.B. das "-master" oder "-nightly" wurde nicht entfernt bei Downloads von GitHub vor der Installation oder URLResolver ist 2 mal vorhanden usw.)
 
 *Wenn dieser Fehler auftreten sollte, kann folgendes helfen:*
 
@@ -510,37 +475,11 @@ Ist auch bei den Hoster von der Seite so
 
 Da kann man leider nichts machen als warten
 
-- **ImportError:** Bad magic number in bs_finalizer.pyo
-
-	- Status: Problem behoben (Master)
-
-	- **TypeError:** string indices must be integers
-
-	- Status: Problem behoben (Master)
-
-- **AttributeError:** "...Resolver" object has no attribute "priority"
-
-	- Status: Problem behoben (Master)
-
-- **KeyError:**'TVShowTitle'
-
-	- Status: Problem behoben (Master)
-
-- **Movie4k funktioniert nicht**
-
-	- Status: Problem behoben (Beta)
-
-- **Metahandler funktioniert nicht**
-
-	- Status: Problem bekannt, ist in Arbeit
-
-Angaben in (...) = Aktueller "Ort"
-
 - **Beim Starten von xStream kommt folgende Fehlermeldung**
 
 	- "IOError: [Errno socket error] [SSL:CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:590)
 	
-	- Status: Problem behoben (Master)
+	- Status: Problem behoben
 	
 	- *Anmerkung:* in den xStream-Settings die Suche nach Updates ausschalten, dann läuft es wieder
 	
@@ -554,27 +493,6 @@ Angaben in (...) = Aktueller "Ort"
 	
 	Kodi (und daher auch xStream) mag keine Sonderzeichen im Benutzernamen
 Sonderzeichen im Benutzernamen entfernen dann geht es
-
-- **Fehler 1 beim Öffnen von BurningSeries (BS)**
-
-	- [SSL:CERTIFICATE_VERIFY_FAILED] certificate failed (sl.c:590)
-
-		und danach kommt eine Fehlermeldung:
-
-		ValueError MO JSON object could be decoded File 
-		"/Users/Shared/xbmc-depends/appletvos9.1_arm64-target/lib/line 366, in decode"
-
-	- Status: Problem behoben 
-
-- **Fehler 2 beim Öffnen von BurningSeries (BS):** 
-
-	- ImportError: No Module named t0mm0. Common.net /script. Module. Urlresolver /lib/urlresolver /plugins /ecostrean. 
-	
-	Pline 19,in < module> 
-
-	- Lösung: Es fehlt eine Abhängigkeit von xStream, welche eigentlich bei der Installation über das Repo mit installiert werden sollte.
-	
-Deinstalliert xStream nochmal und installier es über das xStream Repo neu oder von Git die [nightly](https://github.com/streamxstream/plugin.video.xstream/tree/nightly)
 
 - **Fehlermeldung beim öffnen eines Site-Plugins**
 
@@ -590,7 +508,7 @@ Deinstalliert xStream nochmal und installier es über das xStream Repo neu oder 
 		
 - **Anzeige: Es ist mehr als ein URLResolver installiert. Bitte löschen**
 
-	Das Problem entsteht durch komische Repos oder durch manuelle Installation (wenn man beim Installieren in der .zip nicht das "-master" entfernt)
+	Das Problem entsteht durch andere Repos oder durch manuelle Installation (wenn man beim Installieren in der .zip nicht das "-master" oder "-nightly" entfernt)
 	
 	Dadurch wird dann ein zweiter URLResolver angelegt und das führt dann zum Problem.
 
@@ -615,7 +533,7 @@ Deinstalliert xStream nochmal und installier es über das xStream Repo neu oder 
 
 	Ist diese veraltet (Kodi 16.1 abwärts) kommte es zur Fehlermeldung bei diversen Site-Plugins / Hoster
 	
-	- Lösung: Kodi 17 verwenden
+	- Lösung: Kodi 17 bzw. Kodi 18 verwenden
 
 - **"HTTPError HTTP Error 403**
 
@@ -646,7 +564,7 @@ Deinstalliert xStream nochmal und installier es über das xStream Repo neu oder 
 
 	Man kann ihn weg klicken und gut ist es. Ergebnisse werden dann auch angezeigt 
 
-	- Lösung: Die Seite 'Dokustreamer' deaktivieren (bis der Fehler behoben wird).Sie verursacht den Fehler.
+	- Lösung: Das Problem wird von einer bestimmten Indexseite verursacht (beobachten bei welcher Seite der Fehler kommt), diese deaktivieren bis der Fehler behoben wird. Sie verursacht den Fehler
 
 - **Fehlermeldung für das Autoupdate xStream und URL Resolver**
 
