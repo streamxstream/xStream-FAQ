@@ -10,10 +10,10 @@
    
 - [2. Installation und Konfiguration](#2-installation-und-konfiguration)
     - [2.1 Bezugsquellen zur Installation](#21-bezugsquellen-zur-installation)
-    - [2.2 Allgemeine Einstellungen](#22-allgemeine-einstellungen)
+    - [2.2 Einstellungen Allgemein](#22-einstellungen-allgemein)
     - [2.3 Webseiten Aktivieren und Deaktivieren](#23-webseiten-aktivieren-und-deaktivieren)
     - [2.4 Manuelle und automatische Hosterwahl](#24-manuelle-und-automatische-hosterwahl)
- - [2.5 Metahandler benutzen](#25-metahandler-benutzen)
+ - [2.5 Metadaten](#25-metadaten)
  - [2.6 Autoplay Funktion](#26-autoplay-funktion)
  - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
  - [2.8 Gemeinsamer gesehen Status in xStream und Lastship](#28-gemeinsamer-gesehen-status-in-xstream-und-lastship)
@@ -108,11 +108,11 @@ Es wird übrigens der URL Resolver von Jsergio verwendet
 ***WICHTIG:*** 
 
 Beim gesamten Daten Download von Github gilt es folgendes zu Beachten: 
-Um eine Korrekte Installation zu Gewährleisten, ist es immer notwendig, den Anhang _Master, Beta, Nightly_ aus den  .zip Dateien und dem Unterordner zu entfernen
+Um eine Korrekte Installation zu Gewährleisten, ist es immer notwendig, den Anhang _Master bzw. Nightly_ aus den  .zip Dateien und dem Unterordner zu entfernen
 
 Geht wie folgt: 
 	
-- zum Beispiel, die Datei in "plugin.video.xstream.zip" umbenennen (quasi das "-master", -"beta" oder -"nightly" entfernen)
+- zum Beispiel, die Datei in "plugin.video.xstream.zip" umbenennen (quasi das "-master" oder -"nightly" entfernen)
 
 -  Datei öffnen (nicht entpacken) mit 7-Zip, WinRAR, WinZIP (oder einem anderen Packer)
 	
@@ -123,7 +123,7 @@ Die Zip dann installieren.
 xStream-Repository: 
 (Bitte dieses nehmen)
 
-- [xStream-Repo](https://github.com/streamxstream/xStreamRepo/blob/master/repository.xstream/repository.xstream-1.1.4.zip)
+- [xStream-Repo](https://github.com/streamxstream/xStreamRepo/raw/master/repository.xstream/repository.xstream-1.1.5.zip)
 
 Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 
@@ -152,17 +152,16 @@ An dieser Stelle wird klar darauf hingewiesen, dass bei alternativen Bezugsquell
 - xStream Repository
 - *Video-Addons*
 - xStream (installieren/aktivieren)
-- *Addon Verzeichnis*
-  hier Lastship Libraries Repository aktivieren
+- *Addon Repository*
+- hier prüfen das xStream Repository aktiviert ist
   (dann wird der URL-Resolver automatisch aktualisiert)
 
-Im Anschluss kann dann das xStream "Autoupdate“ gemacht werden (muss aber nicht), wie unten Beschrieben
 
-### 2.2 Allgemeine Einstellungen
+### 2.2 Einstellungen Allgemein
 
 Unter Bevorzugte Sprache, kann die gewünschte Sprache für die Seiten ausgewählt werden 
 
-Dabei kann unter den Optionen Deutsch, Englisch und Alle gewählt werden, wobei Alle beide Sprachen einbezieht 
+Dabei kann unter den Optionen *Deutsch*, *Englisch* und *Alle* gewählt werden, wobei *Alle* beide Sprachen einbezieht 
 
 Zu berücksichtigen ist jedoch, dass die einzelnen Site-Plugins diese Option unterstützen müssen 
 
@@ -172,9 +171,7 @@ Sonst am besten alles so lassen wie es ist, die Views leer lassen, sowie auch di
 
 Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü
 
-Hier die Markierung „gesehene Filme“ deaktivieren!
-
-***Wenn Ihr  xStream Repo (v.1.0.5)  installiert habt, müsst Ihr in den xStream Einstellungen das Update auf nightly stellen um folgende Funktionen zu erhalten***
+Hier die Markierung *gesehene Filme* deaktivieren!
 
  **Auto-Update Funktion**
  
@@ -184,7 +181,7 @@ Das Updatet nimmt die aktuelle nighly Version
 
 Dadurch werden Fehler/Bugs/Error, schnell & einfach behoben
 
-Als Standard ist aktiviert eingestellt
+Als Standard ist aktiviert eingestellt, es kann natürlich auch deaktiviert werden wenn nicht erwünscht
 
 Dieses Auto-Update wird nur ausgeführt mit dem Kodi Start und wird durch eine Meldung auch angezeigt
 
@@ -194,19 +191,23 @@ Wenn in Kodi unter:
 
 Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird xStream trotzdem aktualisiert
 
+**Aktualisierung einmalig erzwingen**
+
 Bei Problemen mit dem Update konnte man sich ja meist damit behelfen unter userdata die 'update_sha' zu löschen. Somit kam es dann zu einem erzwungenen, vollständigen Update
 
-Die neue Option (rot) in den Einstellungen macht genau dieses Löschen. Nach dem Update wird diese Einstellung automatisch wieder auf "off" gesetzt!
+Die Option *Aktualisierung einmalig erzwingen* (rot) in den Einstellungen macht genau dieses Löschen. Nach dem Update wird diese Einstellung automatisch wieder auf "off" gesetzt!
 
 **ACHTUNG! - Diese Funktion ist nur bei manuellem Update ( Nightly Update) aktiv!**
+
+Um es zu nutzen, alle anderen Updates auf aus stellen und Kodi neu starten. Dann die Updates wieder wie zuvor Einschalten
 
 **URLResolver Nightly Update**
 
 Für den URLResolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
-Als Standard ist deaktiviert eingestellt
+Als Standard ist aktiviert eingestellt
 
-Im Menü Einstellungen- Allgemein kann es aktiviert werden
+Im Menü Einstellungen- Allgemein kann es deaktiviert werden, wenn nicht erwünscht
 
 Beachtet an dieser Stelle, dass *Nighly's* auch Fehler enthalten können
 
@@ -214,7 +215,7 @@ Beachtet an dieser Stelle, dass *Nighly's* auch Fehler enthalten können
 
 *Standard:* Alle Site-Plugins aktiviert
 
-In den Einstellungen, unter dem Menüpunkt *Site-Plugins*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten
+In den Einstellungen, unter dem Menüpunkt *Index Seiten 1+2*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten
 
 Dies kann von Nutzen sein, wenn kein Interesse an bestimmten Medien besteht
 
@@ -228,7 +229,8 @@ Nache einem xStream Update werden auch neu hinzugefügte Seiten automatisch ange
 
 *Anmerkung*
 
-Wenn Ihr Probleme mit kinox, movie4k usw. habt, hilft es wenn Ihr Eure DNS (z.B. auf die von Google 8.8.8.8) Adresse ändert
+Wenn Ihr Probleme mit kinox usw. habt, hilft es wenn Ihr Eure DNS (z.B. auf die von Google 8.8.8.8) Adresse ändert
+
 Manche Seiten werden von den Internet Providern geblockt
 
 ### 2.4 Manuelle und automatische Hosterwahl
@@ -263,9 +265,9 @@ Diese kann unter "Resolver Settings" angepasst werden.
 
 Die Deaktivierung diese Features kann auf leistungsschwachen System (z.B. RPi) einen spürbar schnelleren Ablauf bewirken.
 
-Ich würde die Deaktivierung Empfehlen, da es nicht wirklich notwendig ist (und manchmal für Fehler verantwortlich ist)
+Es wird die Deaktivierung Empfohlen, da es nicht wirklich notwendig ist (und manchmal für Fehler verantwortlich ist)
 
-***Anmerkung zu den Hostern Jetload TheVideo, Flashx usw.:***
+***Anmerkung zu den Hostern mit PAIRING:***
 
 Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welches Euch auffordert Eure Gerät zu Pairen
 
@@ -295,35 +297,21 @@ Auf der Homepage muss immer eine Werbung betrachet werden
 
 Da wir ja die Homepage des Hostbetreibers nicht besuchen müssen, entgehen dem Betreiber Werbeeinnahmen. 
 
-Damit dies nicht der Fall ist und die Hoster xStream so arbeiten lassen, wurde mit den Betreibern diese "pair" Funktion vereinbart
+Damit dies nicht der Fall ist und die Hoster xStream so arbeiten lassen, wurde mit den Betreibern diese "Pair" Funktion vereinbart
 
-Durch den klick auf "pair" bekommen die Hoster Ihre Werbeeinnahme.
+Durch den klick auf "Pair" bekommen die Hoster Ihre Werbeeinnahme.
 
 Für Euch entstehen dadurch KEINE Kosten!!
 
-### 2.5 Metahandler benutzen
+### 2.5 Metadaten
 
-xStream und ander derartige Video Addons benutzen den gleichen Metahandler
-
-Bei Aktivierung wird das externe Modul metahandler genutzt um ausführliche Informationen in Form von Metadaten, wie Fanarts, Covers oder Episodenbilder, zu den Streams bereitzustellen
+Bei Aktivierung wird das externe Modul TMDB genutzt um ausführliche Informationen in Form von Metadaten, wie Fanarts, Covers oder Episodenbilder, zu den Streams bereitzustellen
 
 Ermöglicht eine relativ konsistente Verwendung der "gesehen" Markierung
 
-Bei erstmaliger Verwendung dauern die Ladevorgänge deutlich länger
+- **TMDB ersetzt Infos von Site**
 
-Dies liegt daran, dass  zunächst alle neuen Informationen zusätzlich über das Internet abgerufen werden müssen
-
-Für schwache Systeme nur bedingt zu empfehlen
-
-Muss vom jeweiligen Site-Plugin unterstützt werden, sonst zeigt diese Option keine Funktion
-
-- **Metahandler ersetzt Infos von Site**
-
-	Bei Aktivierung werden Metainformationen vom  "Metahandler" bevorzugt, d.h. Metainformationen die von einem Site-Plugin geliefert wurden werden nicht nur ergänzt sondern auch ersetzt.
-
-- ***ACHTUNG:*** 
-
-	Da viele Seiten nicht sofort genug Informationen bereitstellen um jeden Film eindeutig zu identifizieren kann es vorkommen, dass alle angezeigten Informationen nicht zum tatsächlich verlinkten Film passen.
+	Bei Aktivierung werden Metainformationen von  "TMDB" bevorzugt, d.h. Metainformationen die von einem Site-Plugin geliefert wurden werden nicht nur ergänzt sondern auch ersetzt.
 
 ### 2.6 Autoplay Funktion
 
