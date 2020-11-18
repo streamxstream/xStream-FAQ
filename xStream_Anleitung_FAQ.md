@@ -13,9 +13,10 @@
     - [2.2 Einstellungen Allgemein](#22-einstellungen-allgemein)
     - [2.3 Webseiten Aktivieren und Deaktivieren](#23-webseiten-aktivieren-und-deaktivieren)
     - [2.4 Manuelle und automatische Hosterwahl](#24-manuelle-und-automatische-hosterwahl)
- - [2.5 Metadaten](#25-metadaten)
- - [2.6 Autoplay Funktion](#26-autoplay-funktion)
- - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
+    - [2.5 Metadaten](#25-metadaten)
+    - [2.6 Autoplay Funktion](#26-autoplay-funktion)
+    - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
+    - [2.8 Downloads](#28-downloads]
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
@@ -343,6 +344,12 @@ Zu finden in der Kategorie Allgemein
 Wenn AUS: werden im Hauptmenü 3 Ordner (Globale Suche, xStream Einstellungen, Resolver Einstellungen) angezeigt
 
 Wenn EIN: wird nur Globale Suche & Einstellungen angezeigt
+
+### 2.8 Downloads
+
+xStream bietet die Möglichkeit, Filme/Serien von den Webseiten herunter zu laden. Dazu muss die Hosterauswahl auf Liste gestellt sein, damit das entsprechende Menü angezeigt wird
+
+In den xStream Einstellungen - Downloads muss hier bei Kodi Download / Download Verzeichnis ein Speicherpfad festgelegt werden
 
 
 ## 3. Bekannte Probleme
