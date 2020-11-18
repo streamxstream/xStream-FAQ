@@ -45,32 +45,28 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 
 ### 1.1 Verfügbare Webseiten
 
-| Name           | Domain            | Hinzugefügt     |
+| Name           | Domain            | Hinzugefügt|
 |:-------------- |:----------------- |:--------- |
 |Alleserien  	 |alleserien.com     |07.09.2018 |
-|Animes-Stream24 |as.animes-stream24.tv |01.09.2017|
-|Cinenator	 |cinenator.to	     |10.11.2018 |
-|DirectDownLoad  |ddl.me             |09.04.2016 |
-|Dokustream      |dokustream.org     |25.04.2017 |
+|Dokus4	         |dokus4.me	     |01.11.2020 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Filmmerstube    |filmmerstube.com   |21.08.2016 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
 |HD-Streams      |hdstreams.to	     |08.09.2019 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
-|Kindertube  	 |kindertube.de      |13.03.2017 |
-|Kino		 |kino.cx	     |26.08.2018 |
 |Kinoger         |kinoger.com	     |21.02.2018 | 
 |KinoX           |kinox.to           |09.04.2016 |
 |KKiste  	 |kkiste.co  	     |04.10.2019 |
-|Movie4k         |movie4k.to         |09.04.2016 |
-|Moviedream      |moviedream.ws      |10.12.2018 |
+|Movie4k         |movie4k.click	     |25.10.2020 |
+|Movie4k	 |movie4k.space      |24.09.2020 |
+|Movieking       |movieking.cc       |24.08.2020 |
 |Moviestream	 |movie-stream.eu    |10.11.2018 |
 |Movietown       |movietown.org	     |05.12.2019 |
 |Netzkino	 |netzkino.de  	     |30.04.2017 |
+|Pureanime	 |pure-anime.net     |24.03.2020 |
 |SerienStream 	 |serienstream.to    |26.10.2016 |
-|StreamIt        |streamit.ws        |19.09.2016 |   
-|Streamking	 |streamking.eu	     |13.01.2019 |
-|Topstreamfilm	 |topstreamfilm.com  |03.05.2019 |
+|Stream_to	 |stream.to	     |01.09.2020 |
+|Topstreamfilm   |topstreamfilm.com  |03.05.2019 |
 
 Empfehlungen und Vorschläge für neue Seiten können über das Forum eingereicht werden. Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin nicht automatisch. Sowohl das Potenzial der vorgeschlagenen Seite als auch der erforderliche Mehrwert wird geprüft und entscheidet über die Entwicklung eines neuen Site-Plugins.
 
