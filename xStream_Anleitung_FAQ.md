@@ -307,8 +307,6 @@ Für Euch entstehen dadurch KEINE Kosten!!
 
 Bei Aktivierung wird das externe Modul TMDB genutzt um ausführliche Informationen in Form von Metadaten, wie Fanarts, Covers oder Episodenbilder, zu den Streams bereitzustellen
 
-Ermöglicht eine relativ konsistente Verwendung der "gesehen" Markierung
-
 - **TMDB ersetzt Infos von Site**
 
 	Bei Aktivierung werden Metainformationen von  "TMDB" bevorzugt, d.h. Metainformationen die von einem Site-Plugin geliefert wurden werden nicht nur ergänzt sondern auch ersetzt.
@@ -350,6 +348,18 @@ Wenn EIN: wird nur Globale Suche & Einstellungen angezeigt
 xStream bietet die Möglichkeit, Filme/Serien von den Webseiten herunter zu laden. Dazu muss die Hosterauswahl auf Liste gestellt sein, damit das entsprechende Menü angezeigt wird
 
 In den xStream Einstellungen - Downloads muss hier bei Kodi Download / Download Verzeichnis ein Speicherpfad festgelegt werden
+
+Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und hier das Kontextmenü aufrufen und Download wählen
+
+**Download in Verbindung mit JDownloader2.**
+
+Dabei macht Kodi/xStream nichts anderes als die URL an den JDownloader2 zuschicken
+
+Dafür muss die IP des Gerätes konfiguriert sein auf dem JDownloader2 läuft
+
+Desweiteren muss in den xStream-Einstellungen unter Allgemein/Hoster/Hosterauswahl auf List eingestellt sein, da sonst das Kontextmenü nicht funktioniert
+
+Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und dann Kontextmenü aufrufen und dann "send to JDownloader2" drücken
 
 
 ## 3. Bekannte Probleme
