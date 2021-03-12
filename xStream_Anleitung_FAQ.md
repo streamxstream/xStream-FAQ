@@ -402,6 +402,13 @@ Es kann auch vorkommen, dass bei der Globalen Suche keine Treffer angezeigt werd
 
 Um schnelle Abhilfe zu leisten lohnt es sich in diesem Fall durchaus die Entwicklergemeinde darauf aufmerksam zu machen
 
+**Nach Filmsuche/Seriensuche und Start/Stop dieses Films wird man zurück zur Eingabe geworfen**
+Wird ein Film über Globale Suche gesuche und gestartet dann aber wieder gestop, wird man zurück zur "Eingabe" geworfen. Dieses problem ist bekannt, jedoch so start verwurzelt dass eine einfache Behebung nicht möglich ist. Abhilfe schafft hier folgende Möglichkeit:
+
+Globale Suche einmal durchführen > Film auswählen und Kontext-Menü öffnen> klick auf "Weitere Quellen"
+
+Nun wird eine weitere Ergebnisliste für den Film angezeigt.ABER zu dieser Ergebnisliste kann man jederzeit zurückkehren, um eventuell einen anderen Anbieter zu testen, OHNE den Suchbegriff erneut eingeben zu müssen
+
 ### 3.3 Fehler bei Verwendung einzelner Webseiten
 
 Das kann verschiedene Ursachen haben. Meistens liegt es jedoch an der eigentlichen Webseite
