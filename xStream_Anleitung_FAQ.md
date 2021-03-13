@@ -17,6 +17,7 @@
     - [2.6 Autoplay Funktion](#26-autoplay-funktion)
     - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
     - [2.8 Downloads](#28-downloads)
+    - [2.9 Ansichten](#29-ansichten)
  
 - [3. Bekannte Probleme](#3-bekannte-probleme)
     - [3.1 Fehler bei der Installation](#31-fehler-bei-der-installation)
@@ -361,6 +362,41 @@ Desweiteren muss in den xStream-Einstellungen unter Allgemein/Hoster/Hosterauswa
 
 Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und dann Kontextmenü aufrufen und dann "send to JDownloader2" drücken
 
+### 2.9 Ansichten
+
+![Ansichten](https://raw.githubusercontent.com/streamxstream/xStream-FAQ/master/autoansichten.jpg)
+
+Um die Ansichten in xStream fix/fest einzustellen, werden die View-Codes des jeweiligen Skins benötigt
+
+Diese sind bei jedem Skin anders. Ein Liste mit mit den jeweiligen Skin Nummer ist im Forum zu finden: [Liste](https://forum.kodiman.company/viewtopic.php?f=41&p=2765#p2765)
+
+**Hier die Liste für das Kodi Standard Skin Estuary:**
+
+List 50
+
+Poster 51
+
+IconWall 52
+
+Shift	53
+
+InfoWall 54
+
+WideList 55
+
+Wall	500
+
+Banner	501
+
+FanArt	502
+
+User mit etwas Kodi Erfahrung können die Liste selbst herausfinden. Diese befindet sich im Kodi Pfad und dort im Skin Ordner:
+
+Beispiel:
+
+....kodi/addons/skin.estuary/xml/*MyVideoNav*
+
+Diese Datei mit z.B. Note++ öffnen und schon sieht man die Listen Codes, zum Beispiel diesen vom Standard Skin: View_50_List
 
 ## 3. Bekannte Probleme
 
