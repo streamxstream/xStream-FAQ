@@ -48,12 +48,13 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 
 | Name           | Domain            | Hinzugefügt|
 |:-------------- |:----------------- |:--------- |
-|Alleserien  	 |alleserien.com     |07.09.2018 |
 |Dokus4	         |dokus4.me	     |01.11.2020 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
+|Flimmerstube    |flimmerstube.com   |30.05.2021 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
-|KinoAG	         |kino.ag  	     |20.011.2021|  
+|Kino            |kino.bz	     |22.04.2021 |  
+|Konofox         |kinofox.net        |17.05.2021 |
 |Kinoger         |kinoger.com	     |21.02.2018 | 
 |KinoX           |kinox.to           |09.04.2016 |
 |KKiste  	 |kkiste.co  	     |04.10.2019 |
@@ -231,6 +232,8 @@ Wenn Ihr Probleme mit kinox usw. habt, hilft es wenn Ihr Eure DNS (z.B. auf die 
 
 Manche Seiten werden von den Internet Providern geblockt
 
+Einge Seiten wie z.B. Flimmerstube, s.to usw. benötigen ein Benutzerkonto auf der Seite, um diese zu Verwenden zu können
+
 ### 2.4 Manuelle und automatische Hosterwahl
 
 Die Hosterwahl als solches ist sehr schlicht und einfach gehalten. Es erinnert stark an die eigentlichen Benuteroberflächen der jeweiligen Streaming-Seiten
@@ -272,10 +275,6 @@ Wenn Ihr einen dieser Hoster zum Streamen auswählt, erscheint ein Fenster, welc
 Das könnt ihr mit ruhigen Gewissen machen
 
 Ihr müsst im selben WLAN sein wie das zu Pairende Gerät (z.B. FireTV, Apple TV usw.)
-
-Für Flashx müsst Ihr Euch auf Flashx.tv ein Benutzerkonto anlegen, dafür kann auch eine Wegwerf E-Mailadresse verwendet werden
-
-Öffnet am Handy/Tablet/PC einen Browser mit der angezeigten Adresse von z.B. flashx (https://www.flashx.tv/pair)
 
 Bei Jetload ist das folgende Pairing Seite: https://jlpair.net/
 
@@ -508,6 +507,18 @@ Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](htt
 
 ### 3.5 Fehlermeldungen im Betrieb
 
+- **Bei Flimmerstube ist alles leer, es wird kein Inhalt angezeigt**
+
+Es wird ein  Benutzerkonto benötigt, damit ihr die Seite nutzen könnt. Dazu müsst ihr euch auf der Seite http://flimmerstube.com registrieren 
+
+Dafür reicht eine Fakeemail z.B. mail1a.de
+
+Die Daten müssen dann in den xStream Einstellungen Eingetragen werden
+
+Es ist auch dann alles leer, wenn die Registrierung auf der Website nicht korrekt abgeschlossen wurde!
+
+Die Registrierung muss über einen Link endgültig bestätigt werden. Erst dann die Login-Daten in xStream eintragen
+
 - **Problem mit HDFilme in xStream**
 
 Wenn ich einen Film gucke springt der Film regelmäßig um ca. 1 Sekunde nach vorn
@@ -517,20 +528,6 @@ Das passiert so alle 1-2 Minuten und ist natürlich störend
 Das Problem ist eigentlich in jedem Kodi Forum bekannt, und ist bei HDFilme Server 0
 
 Das Problem kann man aktuell leider nicht lösen
-
-- **AlleSerien kein Menüeintrag (Serien z.B. Neustes Release ) vorhanden**
-
-Und zwar gibt es ab und zu bei AlleSerien einen Fehler
-
-Da steht dannn z.B. bei Serien / Neustes Release, *xStream Es wurde kein Eintrag gefunden*, nach ein paar Minuten funktionierts wieder
-
-Über die Suche ist aber alles zu finden
-
-Das liegt leider an der Seite. Wenn diese recht ausgelastet ist, dann kommt der Fehler
-
-Ist auch bei den Hoster von der Seite so
-
-Da kann man leider nichts machen als warten
 
 - **Beim Starten von xStream kommt folgende Fehlermeldung**
 
