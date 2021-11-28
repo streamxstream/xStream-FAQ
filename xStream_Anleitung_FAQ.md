@@ -7,7 +7,7 @@
     - [1.1 Verfügbare Webseiten](#11-verfügbare-webseiten)
     - [1.2 Rechtliche Konsequenzen bei Nutzung](#12-rechtliche-konsequenzen-bei-nutzung)
    
-   
+    
 - [2. Installation und Konfiguration](#2-installation-und-konfiguration)
     - [2.1 Bezugsquellen zur Installation](#21-bezugsquellen-zur-installation)
     - [2.2 Einstellungen Allgemein](#22-einstellungen-allgemein)
