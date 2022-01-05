@@ -98,11 +98,13 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 Das Plugin kann direkt herunterladen werden (wobei die Update-Funktionalität nicht gegeben ist), oder über die xStream Repository installiert werden (empfohlen). 
 
-Im xStream Repository ist auch der URLResolver enthalten
+Im xStream Repository ist auch der ResolveURL enthalten
 
-Wenn das installiert wird, aktualisiert sich auch der URL Resolver automatisch
+Wenn das installiert wird, aktualisiert sich auch der Resolver automatisch
 
-Es wird übrigens der URL Resolver von Jsergio verwendet
+Es wird übrigens der ResolveURL von Jsergio verwendet
+
+Nach der Installation xStream öffnen und am unteren Ende der Seiten Auswahl auf Einstellungen - Resolver Einstellungen. Hier dann *Cache Funktion benutzen* deaktivieren (um Fehler zu vermeiden)
 
 ***WICHTIG:*** 
 
@@ -200,9 +202,9 @@ Die Option *Aktualisierung einmalig erzwingen* (rot) in den Einstellungen macht 
 
 Um es zu nutzen, alle anderen Updates auf aus stellen und Kodi neu starten. Dann die Updates wieder wie zuvor Einschalten
 
-**URLResolver Nightly Update**
+**Resolver Nightly Update**
 
-Für den URLResolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
+Für den Resolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
 Als Standard ist aktiviert eingestellt
 
@@ -459,11 +461,11 @@ Bitte Sachlich bleiben und nicht jammern!
 
 *Für die Streaming-Seiten kinox.to usw. können in den Einstellungen alternative Domäne bestimmt werden. Nutzen sie diese falls die Seiten nicht zu erreichen sind!*
 
-### 3.4 URL Resolver Fehler
+### 3.4 Resolver Fehler
 
-Sollte dies der Fall sein, bitte die aktuellste Version des "URLResolver" beziehen:
+Sollte dies der Fall sein, bitte die aktuellste Version des "Resolver" beziehen:
 
-[Link](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.urlresolver) 
+[Link](https://github.com/jsergio123/zips/tree/master/script.module.resolveurl) 
 
 Bitte den gewünschten Film auf der Homepage auf Funktion kontrollieren.
 
