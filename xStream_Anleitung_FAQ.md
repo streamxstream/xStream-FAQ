@@ -48,16 +48,20 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 
 | Name           | Domain            | Hinzugefügt|
 |:-------------- |:----------------- |:--------- |
+|AniCloud	 |anicloud.io 	     |31.12.2021 |
 |Dokus4	         |dokus4.me	     |01.11.2020 |
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Flimmerstube    |flimmerstube.com   |30.05.2021 |
+|Kinofox	 |kinofox.de	     |16.12.2021 |
 |HD-Streams      |hdstreams.org      |30.12.2017 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
 |Kino            |kino.bz	     |22.04.2021 |  
-|Konofox         |kinofox.net        |17.05.2021 |
+|Kinofox         |kinofox.net        |17.05.2021 |
 |Kinoger         |kinoger.com	     |21.02.2018 | 
+|Kinokiste Tech	 |Kinokiste.tech     |13.01.2022 |
 |KinoX           |kinox.to           |09.04.2016 |
 |KKiste  	 |kkiste.co  	     |04.10.2019 |
+|Megakino        |megakino.co        |10.01.2022 |
 |Movie4k         |movie4k.click	     |25.10.2020 |
 |Movie4k	 |movie4k.space      |24.09.2020 |
 |Movieking       |movieking.cc       |24.08.2020 |
@@ -66,6 +70,7 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |Pureanime	 |pure-anime.net     |24.03.2020 |
 |SerienStream 	 |serienstream.to    |26.10.2016 |
 |Streamworld     |streamworld.in     |31.12.2021 |
+|XCine		 |xcine.me	     |07.01.2022 |
 
 Empfehlungen und Vorschläge für neue Seiten können über das Forum eingereicht werden. Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin nicht automatisch. Sowohl das Potenzial der vorgeschlagenen Seite als auch der erforderliche Mehrwert wird geprüft und entscheidet über die Entwicklung eines neuen Site-Plugins.
 
@@ -102,7 +107,7 @@ Im xStream Repository ist auch der ResolveURL enthalten
 
 Wenn das installiert wird, aktualisiert sich auch der Resolver automatisch
 
-Es wird übrigens der ResolveURL von Jsergio verwendet
+Es wird übrigens der ResolveURL von Gujal00 verwendet
 
 Nach der Installation xStream öffnen und am unteren Ende der Seiten Auswahl auf Einstellungen - Resolver Einstellungen. Hier dann *Cache Funktion benutzen* deaktivieren (um Fehler zu vermeiden)
 
@@ -465,7 +470,7 @@ Bitte Sachlich bleiben und nicht jammern!
 
 Sollte dies der Fall sein, bitte die aktuellste Version des "Resolver" beziehen:
 
-[Link](https://github.com/jsergio123/zips/tree/master/script.module.resolveurl) 
+[Link](https://github.com/Gujal00/ResolveURL) 
 
 Bitte den gewünschten Film auf der Homepage auf Funktion kontrollieren.
 
@@ -505,7 +510,7 @@ Und zwar einmal im
  
  ...kodi/userdata/addon_data-Ordner, script.module.urlresolver löschen
 
-Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.urlresolver)
+Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.resolveurl)
 
 ### 3.5 Fehlermeldungen im Betrieb
 
