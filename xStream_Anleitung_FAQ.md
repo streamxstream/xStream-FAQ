@@ -53,7 +53,6 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 |FilmPalast      |filmpalast.to      |09.04.2016 |
 |Flimmerstube    |flimmerstube.com   |30.05.2021 |
 |Kinofox	 |kinofox.de	     |16.12.2021 |
-|HD-Streams      |hdstreams.org      |30.12.2017 |
 |HDfilme         |hdfilme.tv         |09.04.2016 |
 |Kino            |kino.bz	     |22.04.2021 |  
 |Kinofox         |kinofox.net        |17.05.2021 |
@@ -129,7 +128,7 @@ Die Zip dann installieren.
 xStream-Repository: 
 (Bitte dieses nehmen)
 
-- [xStream-Repo](https://github.com/streamxstream/xStreamRepo/raw/master/repository.xstream/repository.xstream-1.1.5.zip)
+- [xStream-Repo](https://github.com/streamxstream/xStreamRepo/tree/master/repository.xstream)
 
 Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 
@@ -371,7 +370,7 @@ Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und d
 
 Um die Ansichten in xStream fix/fest einzustellen, werden die View-Codes des jeweiligen Skins benötigt
 
-Diese sind bei jedem Skin anders. Ein Liste mit mit den jeweiligen Skin Nummer ist im Forum zu finden: [Liste](https://forum.kodiman.company/viewtopic.php?f=41&p=2765#p2765)
+Diese sind bei jedem Skin ander
 
 **Hier die Liste für das Kodi Standard Skin Estuary:**
 
@@ -415,22 +414,6 @@ Es kann auch eine fehlerhafte Datei vorliegen, oder die .zip ist falsch aufberei
 
 Hilfe bei Probleme bekommt Ihr auf Gitter oder auch im Forum Kodiman
 
-**xStream kann nicht aus der aktuellen Repo installiert werden**
-
-Wenn Ihr Probleme habt, diese zu Installieren, kann es sehr oft hilfreich sein, die alte xStream Repository zu installieren und dann die NEUE Repo im Anschluss gleich drüber installieren.
-
-Die alte Repo hat keine Funktion mehr, dient eben nur zur Behebung für das genannte Problem!!
-
-Diese ist hier zum Downloaden [Link](https://github.com/streamxstream/xStreamRepo/blob/master/repository.xstream/repository.xstream-1.0.5.zip)
-
-**xStream kann auf Kodi 17 nicht ausgeführt werden**
-
-Das xStream Repo 1.1.3 und daraus xStream sind installiert, jedoch sind die Felder "Aktivieren" bzw. "Konfigurieren" ausgegraut.
-
-Sollte das bei Euch der Fall sein, dann kann es helfen die alte Repo (1.0.5) aus dem Forum zu installieren und dann erst die neu Repo drüber installieren
-
-Diese ist hier zum Downloaden [Link](https://github.com/streamxstream/xStreamRepo/blob/master/repository.xstream/repository.xstream-1.0.5.zip)
-
 ### 3.2 Fehler bei Verwendung der Globalen Suche
 
 Falls bei der Globalen Suche eine Fehlermeldung bekommen, dass eine Seite nicht erreichbar war bzw. die Suche durch eine Meldung unterbrochen wurde, liegt dies meist an der Seite
@@ -442,6 +425,7 @@ Es kann auch vorkommen, dass bei der Globalen Suche keine Treffer angezeigt werd
 Um schnelle Abhilfe zu leisten lohnt es sich in diesem Fall durchaus die Entwicklergemeinde darauf aufmerksam zu machen
 
 **Nach Filmsuche/Seriensuche und Start/Stop dieses Films wird man zurück zur Eingabe geworfen**
+
 Wird ein Film über Globale Suche gesuche und gestartet dann aber wieder gestop, wird man zurück zur "Eingabe" geworfen. Dieses problem ist bekannt, jedoch so start verwurzelt dass eine einfache Behebung nicht möglich ist. Abhilfe schafft hier folgende Möglichkeit:
 
 Globale Suche einmal durchführen > Film auswählen und Kontext-Menü öffnen> klick auf "Weitere Quellen"
@@ -641,11 +625,9 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 
 ## 4. Fehlerbericht über Log-Datei
 
-
 ### 4.1. Allgemeines zur Log-Datei
 
 In dem log File werden alle Aktivitäten/Programmabläufe von Kodi protokolliert und gespeichert. Wenn man nun Probleme mit Kodi hat, ist es sehr hilfreich, dieses Log File im Forum zu Posten. Nur so kann eine schnelle und Zielgerichtete Lösung erfolgen.
-
 
 ### 4.2 Speicherort der Log Datei
 
@@ -687,7 +669,6 @@ Auch der normale Texteditor unter Windows geht, Notepad ist aber übersichtliche
 Auf Android einen Texteditor verwenden zum Betrachten
 
 Übrigens die Kodi „log.old“ ist die Logdatei vom letzten Neustart/Crash. Also wenn man keine mehr erstellen kann, dann diese nehmen.
-
 
 ### 4.3. Erstellen und Hochladen der Log-Datei
 
@@ -737,21 +718,17 @@ Das Debug-Logging kann im Anschluss wieder deaktiviert werden
 
 Unter dem Punkt  Komponentenspezifische Protokollierung kann man bei der Kategorie "Konfiguration der Komponentenspezifischen Protokollierung" noch Einstellen was alles im Debug-Log Protokolliert werden soll
 
-
 ## 5. Phyton Dateien
-
 
 ### 5.1. Allgemeines zur .py-Datei
 
 Eine .py Datei ist eigentlich eine Textdatei. Die Endung .py verweist auf die Programmiersprache Python, welche in Kodi zur Anwendung kommt.Diese .py Dateien werden in sämtlichen/den meisten Addons verwendet.
- 
  
 ### 5.2 Bearbeiten einer .py-Datei
 
 Manchmal werdet Ihr lesen z.B. Wechsel die .py Datei in dem Ordner „xyz“, oder ändere den Eintrag in Zeile 134.Öffnen könnt Ihr die Datei mit vielen Programmen z.B. Notepad++ (Freeware) oder Texteditor. In Notepad werden Euch die Zeilen-Nummern angezeigt und ist somit übersichtlicher, aber es geht auch mit dem EditorMit Notepad++ könnt Ihr die .py Datei sofort öffnen und wieder speichern.
 
 Bei Verwendung des Text-Editors müsst Ihr die Endung vorher von .py auf .txt ändern. Dann könnt Ihr die Datei öffnen und Änderungen vornehmen. Im Anschluss bitte „Speichern unter“ wählen und bei „Dateityp“ alle wählen, und wieder als .py Datei speichern
-
 
 ### 5.3 Speicherort der einzelnen Webseiten (.py Dateien)
 
