@@ -98,7 +98,14 @@ Hier ist ein Video von Rechtsanwalt Christian Solmecke, der über das Thema rech
 
 
 ### 2.1 Bezugsquellen zur Installation
-**Das hinzufügen von xStream über "als Quelle hinzufügen" ist NICHT möglich!!!!**
+
+**"als Quelle hinzufügen" kann ebenso gemacht werden!!!!**
+
+Dazu in Kodi Einstellungen (Zahnrad)- Dateimanager - Quelle hinzufügen
+
+Hier den Link eintragen: https://streamxstream.github.io/xStreamRepository/
+
+Einen Namen vergeben und speichern. Dann kann unter Addons- aus .zip Installieren eben diese Quelle ausgewählt werden und daraus die Repo installiert werden
 
 Das Plugin kann direkt herunterladen werden (wobei die Update-Funktionalität nicht gegeben ist), oder über die xStream Repository installiert werden (empfohlen). 
 
