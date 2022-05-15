@@ -144,7 +144,7 @@ An dieser Stelle wird klar darauf hingewiesen, dass bei alternativen Bezugsquell
 - xStream (installieren/aktivieren)
 - *Addon Repository*
 - hier prüfen das xStream Repository aktiviert ist
-  (dann wird der URL-Resolver automatisch aktualisiert)
+  (dann wird der Resolver automatisch aktualisiert)
 
 
 ### 2.2 Einstellungen Allgemein
@@ -225,6 +225,8 @@ Manche Seiten werden von den Internet Providern geblockt
 
 Einge Seiten wie z.B. Flimmerstube, s.to usw. benötigen ein Benutzerkonto auf der Seite, um diese zu Verwenden zu können
 
+Ausserdem kann bei eingen Seiten (z.B.s.to, kinox.to usw.) die Webseiten Domain in den xStream Einstellungen geändert werde, sollte es Probleme geben
+
 ### 2.4 Manuelle und automatische Hosterwahl
 
 Die Hosterwahl als solches ist sehr schlicht und einfach gehalten. Es erinnert stark an die eigentlichen Benuteroberflächen der jeweiligen Streaming-Seiten
@@ -253,7 +255,7 @@ Diese kann unter "Resolver Settings" angepasst werden.
 
 *Niedrige Werte werden vor hohen Werten gewählt*
 
-*Da Lastship & xStream den gleichen URL Resolver verwenden, hat diese Einstellung auch Auswirkung auf beide Addons!!*
+*Da xStream und andere Addons den gleichen Resolver verwenden, hat diese Einstellung auch Auswirkung auf diese Addons!!*
 
 Die Deaktivierung diese Features kann auf leistungsschwachen System (z.B. RPi) einen spürbar schnelleren Ablauf bewirken.
 
@@ -524,8 +526,6 @@ Was einmal gesucht wurde, ist im Reiter Suchen immer zu sehen und kann durch Cle
 
 Weitere Informationen zur Player Datei sind hier zu finden: [Link](https://github.com/jurialmunkey/plugin.video.themoviedb.helper/wiki/Player-Function)
 
-
-
 ## 3. Bekannte Probleme
 
 ### 3.1 Fehler bei der Installation
@@ -574,7 +574,7 @@ Im Anschluss das Problem schildern
 
 Bitte Sachlich bleiben und nicht jammern!
 
-*Für die Streaming-Seiten kinox.to usw. können in den Einstellungen alternative Domäne bestimmt werden. Nutzen sie diese falls die Seiten nicht zu erreichen sind!*
+***Für die Streaming-Seiten s.to, kinox.to usw. können in den Einstellungen alternative Domäne bestimmt werden. Nutzen sie diese falls die Seiten nicht zu erreichen sind!***
 
 ### 3.4 Resolver Fehler
 
@@ -594,7 +594,7 @@ Normale Streams laufen hingegen ohne Probleme
 
 Eine mögliche Lösung (die schon Erfolge gezeigt hat) ist folgende:
 
-Im URLReslover die *Cache Funktion benutzen* auf AUS schalten
+Im Reslover die *Cache Funktion benutzen* auf AUS schalten
 
 Erreichbar direkt über xStream:
 
@@ -604,23 +604,23 @@ Eventuell noch *Cache Funktion zurücksetzen* klicken
 
 **Ein Hoster (z.B. vivo.sx) geht bei allen nur bei Euch nicht**
 
-Das kann an einer falschen Installation des URLResolver liegen 
+Das kann an einer falschen Installation des Resolver liegen 
 
-(z.B. das "-master" oder "-nightly" wurde nicht entfernt bei Downloads von GitHub vor der Installation oder URLResolver ist 2 mal vorhanden usw.)
+(z.B. das "-master" oder "-nightly" wurde nicht entfernt bei Downloads von GitHub vor der Installation oder Resolver ist 2 mal vorhanden usw.)
 
 *Wenn dieser Fehler auftreten sollte, kann folgendes helfen:*
 
-Alle Ordner, die zum URLResolver gehören, löschen. 
+Alle Ordner, die zum Resolver gehören, löschen. 
 
 Und zwar einmal im
 
- ..kodi/addons-Ordner, script.module.urlresolver löschen 
+ ..kodi/addons-Ordner, script.module.resolveurl löschen 
  
  und zum anderen im
  
- ...kodi/userdata/addon_data-Ordner, script.module.urlresolver löschen
+ ...kodi/userdata/addon_data-Ordner, script.module.resolveurl löschen
 
-Dann installierst du den aktuellsten URL Resolver aus der [.zip von  Github](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.resolveurl)
+Dann installierst du den aktuellsten Resolver aus der [.zip von  Github](https://github.com/streamxstream/xStreamRepo/tree/master/script.module.resolveurl)
 
 ### 3.5 Fehlermeldungen im Betrieb
 
@@ -677,18 +677,18 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 	
 	Optionen-Dateimanager-Profil_Ordner-addon_data-plugin.Video.xstream-pluginDB wählen und löschen
 		
-- **Anzeige: Es ist mehr als ein URLResolver installiert. Bitte löschen**
+- **Anzeige: Es ist mehr als ein Resolver installiert. Bitte löschen**
 
 	Das Problem entsteht durch andere Repos oder durch manuelle Installation (wenn man beim Installieren in der .zip nicht das "-master" oder "-nightly" entfernt)
 	
-	Dadurch wird dann ein zweiter URLResolver angelegt und das führt dann zum Problem.
+	Dadurch wird dann ein zweiter Resolver angelegt und das führt dann zum Problem.
 
 	- Lösung:  geht im Kodi Ordner zu .../kodi/addons/
 	
 	Dort werdet ihr dann Ordner finden, die wie folgt heißen:
 
-	- script.module.urlresolver
-	- script.module.urlresolver-master
+	- script.module.resolveurl
+	- script.module.resolveurl-master
 
 
 	Einfach den Ordner mit "-master" am Ende löschen und die Fehlermeldung ist weg. Und auch das AutoUpdate im xStream funktioniert wieder.
@@ -702,9 +702,9 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 
 	Es liegt an Kodi, bzw. der Pythonversion welche Kodi verwendet
 
-	Ist diese veraltet (Kodi 16.1 abwärts) kommte es zur Fehlermeldung bei diversen Site-Plugins / Hoster
+	Ist diese veraltet kommte es zur Fehlermeldung bei diversen Site-Plugins / Hoster
 	
-	- Lösung: Kodi 17 bzw. Kodi 18 verwenden
+	- Lösung: Kodi 18 bzw. Kodi19 verwenden
 
 - **"HTTPError HTTP Error 403**
 
@@ -737,9 +737,9 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 
 	- Lösung: Das Problem wird von einer bestimmten Indexseite verursacht (beobachten bei welcher Seite der Fehler kommt), diese deaktivieren bis der Fehler behoben wird. Sie verursacht den Fehler
 
-- **Fehlermeldung für das Autoupdate xStream und URL Resolver**
+- **Fehlermeldung für das Autoupdate xStream und Resolver**
 
-	Es kommt am Apple TV immer wieder zu dieser Fehlermeldung, wenn das xStream AutoUpdate und das URL Resolver Autoupdate aktiviert sind
+	Es kommt am Apple TV immer wieder zu dieser Fehlermeldung, wenn das xStream AutoUpdate und das Resolver Autoupdate aktiviert sind
 
 	Wenn beide Autoupdates deaktiviert werden gibt es auch keine Fehlermeldung. Updates müssen dann selber heruntergeladen & installiert werden
 
