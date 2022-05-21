@@ -584,6 +584,22 @@ Sollte dies der Fall sein, bitte die aktuellste Version des "Resolver" beziehen:
 
 Bitte den gewünschten Film auf der Homepage auf Funktion kontrollieren.
 
+**Fehlermeldung: Sie haben keinen funktionierenden Resolver installiert....**
+
+Sollte diese Meldung erscheinen, dann kam es während des Updates zu einem Fehler. Das Problem lässt sich jedoch einfach lösen
+
+Kodi beenden, dann in einem Dateimanager zu folgendem Ordner navigieren (versteckte Ordner vorher sichtbar machen): *....\userdata\addon_data\script.module.resolveurl*
+
+Hier die Datei *update_sha* löschen und Kodi neu starten
+
+Sollte das Problem dann immer noch bestehen, in xStream Einstellungen - Allgemein - Update, Aktualisierung einmalig erzwingen einschalten und obigen Schritt zusätzlich wiederholen
+
+Sollte der Schritt mit dem Dateimanager zu kompliziert sein dann hier noch ein Lösungsweg:
+
+In Kodi: Einstellungen - Dateimanager - Profilverzeichnis - addon_data - script.module.resolveurl - update_sha 
+
+Kontextmenü öffnen und Löschen und die Löschmeldung mit JA bestätigen
+
 **Premium Anbieter funktionieren nicht, normale Streams laufen, bzw. Ladekreis kurz sichtbar aber kein Stream**
 
 Es kommt oft vor, dass Streams von Premium Anbietern (z.B. Premiumize, RealDebrid, AllDebrid, MegaDebrid usw.) nicht laufen
