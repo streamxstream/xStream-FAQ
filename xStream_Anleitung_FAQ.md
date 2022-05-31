@@ -89,7 +89,7 @@ Einen Namen vergeben und speichern. Dann kann unter Addons- aus .zip Installiere
 
 Das Plugin kann direkt herunterladen werden (wobei die Update-Funktionalität nicht gegeben ist), oder über die xStream Repository installiert werden (empfohlen). 
 
-Im xStream Repository ist auch der ResolveURL enthalten
+Im xStream Repository ist auch das Repository ResolveURL enthalten
 
 Wenn das installiert wird, aktualisiert sich auch der Resolver automatisch
 
