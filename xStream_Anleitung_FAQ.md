@@ -47,7 +47,7 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 
 ### 1.1 Verfügbare Webseiten
 
-Übersciht der derzeitigen Seiten in xStream ist hier zu finden: [Link](https://github.com/streamxstream/plugin.video.xstream)
+Eine Übersicht der derzeitigen Seiten in xStream ist hier zu finden: [Link](https://github.com/streamxstream/plugin.video.xstream)
 
 Empfehlungen und Vorschläge für neue Seiten können über das Forum eingereicht werden. Die Intergration der eingereichten Seiten ist nicht selbsverständlich und folgt daraufhin nicht automatisch. Sowohl das Potenzial der vorgeschlagenen Seite als auch der erforderliche Mehrwert wird geprüft und entscheidet über die Entwicklung eines neuen Site-Plugins.
 
