@@ -13,7 +13,7 @@
     - [2.2 Einstellungen Allgemein](#22-einstellungen-allgemein)
     - [2.3 Webseiten Aktivieren und Deaktivieren](#23-webseiten-aktivieren-und-deaktivieren)
     - [2.4 Manuelle und automatische Hosterwahl](#24-manuelle-und-automatische-hosterwahl)
-    - [2.5 Metadaten](#25-metadaten)
+    - [2.5 TMDB](#25-tmdb)
     - [2.6 Autoplay Funktion](#26-autoplay-funktion)
     - [2.7 Zentralisierte Einstellungen](#27-zentralisierte-einstellungen)
     - [2.8 Downloads](#28-downloads)
@@ -89,9 +89,9 @@ Einen Namen vergeben und speichern. Dann kann unter Addons- aus .zip Installiere
 
 Das Plugin kann direkt herunterladen werden (wobei die Update-Funktionalität nicht gegeben ist), oder über die xStream Repository installiert werden (empfohlen). 
 
-Im xStream Repository ist auch das Repository ResolveURL enthalten
+Im xStream Repository ist auch das Repository ResolveURL enthalten, welche noch zusätzlich selbst installiert werden muss!!
 
-Wenn das installiert wird, aktualisiert sich auch der Resolver automatisch
+Wenn diese installiert wird, aktualisiert sich auch der Resolver automatisch
 
 Es wird übrigens der ResolveURL von Gujal00 verwendet
 
@@ -100,6 +100,7 @@ Nach der Installation xStream öffnen und am unteren Ende der Seiten Auswahl auf
 ***WICHTIG:*** 
 
 Beim gesamten Daten Download von Github gilt es folgendes zu Beachten: 
+
 Um eine Korrekte Installation zu Gewährleisten, ist es immer notwendig, den Anhang _Master bzw. Nightly_ aus den  .zip Dateien und dem Unterordner zu entfernen
 
 Geht wie folgt: 
@@ -122,8 +123,7 @@ Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 - [xStream Nightly](https://github.com/streamxstream/plugin.video.xstream)
 
 
-*Die Nightly Version gilt als Experimentell jedoch ist es viel aktueller*
-*und neu Seiten sind hier zuerst enthalten.*
+*Die Nightly Version gilt als Experimentell jedoch ist es viel aktueller und neu Seiten sind hier zuerst enthalten.*
 
 *Fehler können daher vorhanden sein.*
 
@@ -131,7 +131,7 @@ Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 
 An dieser Stelle wird klar darauf hingewiesen, dass bei alternativen Bezugsquelle nicht für den aktuellsten Stand und Funktion der Software garantiert werden kann!!!
 
- - Repo Installieren:
+ **Repo Installieren:**
 
 - öffne die Kategorie Addons
 - aus zip installieren
@@ -145,10 +145,8 @@ An dieser Stelle wird klar darauf hingewiesen, dass bei alternativen Bezugsquell
 - *Video-Addons*
 - xStream (installieren/aktivieren)
 - *Addon Repository*
-- hier prüfen das xStream Repository aktiviert ist
-  (dann wird der Resolver automatisch aktualisiert)
-
-
+- hier prüfen, dass xStream Repository aktiviert ist und das ResolveURL Repo installieren (dann wird der Resolver automatisch aktualisiert)
+  
 ### 2.2 Einstellungen Allgemein
 
 Unter Bevorzugte Sprache, kann die gewünschte Sprache für die Seiten ausgewählt werden 
@@ -159,7 +157,7 @@ Zu berücksichtigen ist jedoch, dass die einzelnen Site-Plugins diese Option unt
 
 Wird also die ausgewählt Option nicht unterstützt werden auch Inhalte anderer Sprache nicht angezeigt
 
-Sonst am besten alles so lassen wie es ist, die Views leer lassen, sowie auch die Downloads.
+Sonst am besten alles so lassen wie es ist
 
 Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü
 
@@ -175,7 +173,7 @@ Dadurch werden Fehler/Bugs/Error, schnell & einfach behoben
 
 Als Standard ist aktiviert eingestellt, es kann natürlich auch deaktiviert werden wenn nicht erwünscht
 
-Dieses Auto-Update wird nur ausgeführt mit dem Kodi Start und wird durch eine Meldung auch angezeigt
+Dieses Auto-Update wird nur ausgeführt mit dem Kodi Start und wird auch durch eine Meldung angezeigt
 
 Diese xStream Auto-Update Funktion arbeitet Unabhängig von den KODI Einstellungen
 
@@ -189,9 +187,9 @@ Bei Problemen mit dem Update konnte man sich ja meist damit behelfen unter userd
 
 Die Option *Aktualisierung einmalig erzwingen* (rot) in den Einstellungen macht genau dieses Löschen. Nach dem Update wird diese Einstellung automatisch wieder auf "off" gesetzt!
 
-**ACHTUNG! - Diese Funktion ist nur bei manuellem Update ( Nightly Update) aktiv!**
+**ACHTUNG! - Diese Funktion ist nur bei manuellem Update (Nightly Update) aktiv!**
 
-Um es zu nutzen, alle anderen Updates auf aus stellen und Kodi neu starten. Dann die Updates wieder wie zuvor Einschalten
+Um es zu nutzen, alle anderen Updates auf AUS stellen und Kodi neu starten. Dann die Updates wieder wie zuvor Einschalten
 
 **Resolver Nightly Update**
 
@@ -295,17 +293,17 @@ Durch den klick auf "Pair" bekommen die Hoster Ihre Werbeeinnahme.
 
 Für Euch entstehen dadurch KEINE Kosten!!
 
-### 2.5 Metadaten
+### 2.5 TMDB
 
 Bei Aktivierung wird das externe Modul TMDB genutzt um ausführliche Informationen in Form von Metadaten, wie Fanarts, Covers oder Episodenbilder, zu den Streams bereitzustellen
 
-- **TMDB ersetzt Infos von Site**
+**TMDB ersetzt Informationen der Webseiten**
 
-	Bei Aktivierung werden Metainformationen von  "TMDB" bevorzugt, d.h. Metainformationen die von einem Site-Plugin geliefert wurden werden nicht nur ergänzt sondern auch ersetzt.
+Bei Aktivierung werden Metainformationen von  "TMDB" bevorzugt, d.h. Metainformationen die von einem Site-Plugin geliefert wurden, werden nicht nur ergänzt sondern auch ersetzt
 
 ### 2.6 Autoplay Funktion
 
-Zu finden in der Kategorie *Allgemein*
+Einstellungen dazu sind in der Kategorie *Allgemein* zu finden
 
 Hosterauswahl muss hierzu auf *Auto* stehen
 
@@ -315,7 +313,7 @@ xStream probiert automatisch alle verfügbaren Hoster aus, bis ein Stream abgesp
 
 Die Auswahlreihenfolge der Hoster richtet sich nach deren Priorität
 
-Diese kann unter "Resolver Settings" angepasst werden
+Diese kann unter "Resolver Einstellungen" beim jeweiligen Hoster angepasst werden
 
 *Niedrige Werte werden vor hohen Werten gewählt*
 
@@ -323,7 +321,7 @@ Sind Eure Priorisierten (Lieblings) Hoster nicht dabei (weil sie nicht verfügba
 
 *Bevorzugte Qualität bei Auto-Play: *
 
-hier kann die Qualität der Streams eingestellt werden
+Hier kann die Qualität der Streams eingestellt werden
 
 Ist Best eingestellt,  wir immer der beste verfügbare Stream gewählt
 
@@ -337,9 +335,11 @@ Wenn EIN: wird nur Globale Suche & Einstellungen angezeigt
 
 ### 2.8 Downloads
 
-xStream bietet die Möglichkeit, Filme/Serien von den Webseiten herunter zu laden. Dazu muss die Hosterauswahl auf Liste gestellt sein, damit das entsprechende Menü angezeigt wird
+xStream bietet die Möglichkeit, Filme/Serien von den Webseiten herunter zu laden
 
-In den xStream Einstellungen - Downloads muss hier bei Kodi Download / Download Verzeichnis ein Speicherpfad festgelegt werden
+Dazu muss die *Hosterauswahl auf Liste* gestellt sein, damit das entsprechende Menü angezeigt wird
+
+In den xStream Einstellungen - Downloads, muss hier bei Download Verzeichnis, ein Speicherpfad festgelegt werden
 
 Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und hier das Kontextmenü aufrufen und Download wählen
 
@@ -359,7 +359,7 @@ Danach einfach die Episode oder Film starten, dann kommt die Hosterauswahl und d
 
 Um die Ansichten in xStream fix/fest einzustellen, werden die View-Codes des jeweiligen Skins benötigt
 
-Diese sind bei jedem Skin ander
+Diese sind bei jedem Skin anders!!
 
 **Hier die Liste für das Kodi Standard Skin Estuary:**
 
@@ -381,26 +381,25 @@ Banner	501
 
 FanArt	502
 
-User mit etwas Kodi Erfahrung können die Liste selbst herausfinden. Diese befindet sich im Kodi Pfad und dort im Skin Ordner:
+User mit etwas Kodi Erfahrung können die Liste selbst herausfinden, diese befinden sich im Kodi Pfad und dort im Skin Ordner:
 
 Beispiel:
 
 ....kodi/addons/skin.estuary/xml/*MyVideoNav*
 
-Diese Datei mit z.B. Note++ öffnen und schon sieht man die Listen Codes, zum Beispiel diesen vom Standard Skin: View_50_List
+Diese Datei mit z.B. Note++ öffnen und schon sieht man die Listen Codes, zum Beispiel diesen vom Standard Skin: View_50_List, View_51_Poster, usw.
 
 ### 3.0 TheMovieDB Helper
 
 **Informationen**
 
-TheMovieDB Helper bietet die Möglichkeit über verschiedene Player, lokale Videodateien und Streams abzuspielen
+TheMovieDB Helper bietet die Möglichkeit über verschiedene Player (z.B. xStream), lokale Videodateien und Streams abzuspielen
 
 Das Addon TheMovieDB Helper ist ein eigenständiges Addon und dient als Erweiterung für xStream
 
 Informationen aus TMDb -, OMDb - und Trakt-APIs werden mit eigenen Benutzerdaten unterstützt
 
-Die Player Datei muss für jede Seite separat erstellt werden, da die derzeitige
-Globale xStream Suche, diese Funktion nicht unterstützt
+Die Player Datei muss für jede Seite separat erstellt werden, da die derzeitige Globale xStream Suche, diese Funktion nicht unterstützt
 
 Die Downloads von verfügbaren Playerdateien sind auf der [Webseite]( https://streamxstream.github.io/xStreamRepoWeb/) zu finden
 
@@ -584,7 +583,7 @@ Sollte dies der Fall sein, bitte die aktuellste Version des "Resolver" beziehen:
 
 [Link](https://github.com/Gujal00/ResolveURL) 
 
-Bitte den gewünschten Film auf der Homepage auf Funktion kontrollieren.
+Bitte den gewünschten Film auf der Homepage auf Funktion kontrollieren
 
 **Fehlermeldung: Sie haben keinen funktionierenden Resolver installiert....**
 
@@ -754,6 +753,10 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 	Man kann ihn weg klicken und gut ist es. Ergebnisse werden dann auch angezeigt 
 
 	- Lösung: Das Problem wird von einer bestimmten Indexseite verursacht (beobachten bei welcher Seite der Fehler kommt), diese deaktivieren bis der Fehler behoben wird. Sie verursacht den Fehler
+
+- **urlopen error [Errno 111] Connection refused: **
+
+Connection refused (Verbindung abgelehnt) bedeutet, dass das Ziel (der Server der Webseite) die Verbindungsanfrage nicht akzeptiert, weil sich der Client (Kodi) nicht mit dem Port am Sever verbinden kann
 
 - **Fehlermeldung für das Autoupdate xStream und Resolver**
 
