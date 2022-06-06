@@ -95,6 +95,10 @@ Wenn diese installiert wird, aktualisiert sich auch der Resolver automatisch
 
 Es wird übrigens der ResolveURL von Gujal00 verwendet
 
+Das offizielle Resolver Update wird übrigens 2 mal angeboten (ResolveURL Repo und xStream Repo) und ist so beabsichtigt
+
+Der Grund: Bei xStream Neuinstallation würde sonst KEIN Resolver installiert werden, wenn er nicht in ebenso in unserer Repo enthalten ist
+
 Nach der Installation xStream öffnen und am unteren Ende der Seiten Auswahl auf Einstellungen - Resolver Einstellungen. Hier dann *Cache Funktion benutzen* deaktivieren (um Fehler zu vermeiden)
 
 ***WICHTIG:*** 
@@ -196,6 +200,16 @@ Um es zu nutzen, alle anderen Updates auf AUS stellen und Kodi neu starten. Dann
 Für den Resolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
 Als Standard ist aktiviert eingestellt
+
+Es stehen 2 Update Möglichkeiten zur Verfügung: Release und Nightly
+
+Release ist direkt vom Gujal00 Github und Nightly mit Anpassungen vom Team. Das Gujal00 Release immer aktuell!
+
+*Grundsätzlich sollte/soll jeder das Gujall00 Release einstellen* und nur bei Problemen z.b. voe unser Nightly ausführen
+
+Im Resolver Nightly sind nur "Notfixes", bis diese auch bei Gujall hinzugefügt werden 
+
+Das Release im Resolver Nightly ist NICHT das Release im Repo sondern neuer,weil es direkt vom Github geladen wird sobald es dort etwas neues gibt
 
 Im Menü Einstellungen- Allgemein kann es deaktiviert werden, wenn nicht erwünscht
 
