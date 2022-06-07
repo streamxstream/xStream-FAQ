@@ -46,7 +46,29 @@ xStream ist ein Video Addon für die Media-Center-Software Kodi. Mit xStream ist
 
 ### 1.1 Verfügbare Webseiten
 
-Eine Übersicht der derzeitigen Seiten in xStream ist hier zu finden: [Link](https://github.com/streamxstream/plugin.video.xstream)
+Hier ist eine Übersicht der derzeitigen Seiten in xStream.
+
+|  Site Plugin                       | Enthalten | Funktioniert | Login | Fehler Beschreibung   |
+|------------------------------------|:---------:|:------------:|:-----:|:---------------------:|
+| Anicloud                     	     | [x]       | [x]          | [x]   |        		|
+| Dokus4me                     	     | [x]       | [x]          |       |        	 	|
+| Filmpalast                         | [x]       | [x]          |       |        		|
+| Flimmerstube                       | [x]       | [x]          | [x]   |        		|
+| HD Filme.top                       | [x]       | [x]          |       |        		|
+| Kinofox                     	     | [x]       | [x]          |       |        		|
+| KinoGer                     	     | [x]       | [x]          |       |			|
+| Kinokiste                          | [x]       | [x]          |       |			|
+| KinoKiste.tech                     | [x]       | [x]          |       |       		|
+| Kinomax.me                         | [x]       | [x]          |       | 			|
+| Kinox                     	     | [x]       | [x]          |       |         		|
+| KKiste                     	     | [x]       | [x]          |       | Cloudflare ab und zu  |
+| MegaKino                           | [x]       | [x]          |       |        		|
+| Movie4k                            | [x]       | [x]          |       |               	|
+| Movieking                          | [x]       | [x]          |       |        		|
+| Netzkino                           | [x]       | [x]          |       |        		|
+| Serienstream                       | [x]       | [x]          | [x]   |        		|
+| Streamworld                        | [x]       | [x]          |       |        		|
+| XCine                     	     | [x]       | [x]          |       |        		|
 
 Empfehlungen und Vorschläge für neue Seiten können in unserem Chatroom oder als PullRequest eingereicht werden
 
