@@ -54,21 +54,21 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 | Dokus4me                     	     | [x]       | [x]          |       |        	 	|
 | Filmpalast                         | [x]       | [x]          |       |        		|
 | Flimmerstube                       | [x]       | [x]          | [x]   |        		|
-| HD Filme.top                       | [x]       | [x]          |       |     Cloudflare   	|
+| HD Filme.top                       | [x]       | [x]          |       |               	|
 | Kinofox                     	     | [x]       | [x]          |       |        		|
 | KinoGer                     	     | [x]       | [x]          |       |			|
 | Kinokiste                          | [x]       | [x]          |       |			|
 | KinoKiste.tech                     | [x]       | [x]          |       |       		|
-| Kinomax.me                         | [x]       | [x]          |       | 	Cloudflare	|
+| Kinomax.me                         | [x]       | [x]          |       |               	|
 | Kinox                     	     | [x]       | [x]          |       |         		|
-| KKiste                     	     | [x]       | [x]          |       | Cloudflare ab und zu  |
+| KKiste                     	     | [x]       | [x]          |       |                       |
 | MegaKino                           | [x]       | [x]          |       |        		|
-| Movie4k                            | [x]       | [x]          |       |    Cloudflare        	|
+| Movie4k                            | [x]       | [x]          |       |           	        |
 | Movieking                          | [x]       | [x]          |       |        		|
 | Netzkino                           | [x]       | [x]          |       |        		|
 | Serienstream                       | [x]       | [x]          | [x]   |        		|
 | Streamworld                        | [x]       | [x]          |       |        		|
-| XCine                     	     | [x]       | [x]          |       |      Cloudflare	|
+| XCine                     	     | [x]       | [x]          |       |                	|
 
 Empfehlungen und Vorschläge für neue Seiten können in unserem Chatroom oder als PullRequest eingereicht werden
 
