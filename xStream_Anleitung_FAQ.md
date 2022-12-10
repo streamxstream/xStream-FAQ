@@ -142,7 +142,7 @@ Die Zip dann installieren.
 xStream-Repository: 
 (Bitte dieses nehmen)
 
-- [xStream-Repo]([https://github.com/streamxstream/xStreamRepo/tree/master/repository.xstream](https://streamxstream.github.io/xStreamRepoWeb/)
+- [xStream-Repo](https://streamxstream.github.io/xStreamRepoWeb/)
 
 Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr von Github:
 
