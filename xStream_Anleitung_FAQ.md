@@ -937,7 +937,7 @@ Zu finden unter: Einstellungen (Zahnrad) - System - Addons - Abhängigkeiten ver
 
 Das Team stellt derzeit für Kodi 19 und für Kodi 20 xStream Versionen bereit
 
-BEIDE Versionen haben die gleichen Seiten, jedoch wird die Version 3.5.x (Kodi 19), nach dem Finalen Erscheinen von Kodi 20 nur noch Not-Updates bekommen
+BEIDE Versionen haben die gleichen Seiten, jedoch wird die Version 3.5.x (Kodi 18), nach dem Finalen Erscheinen von Kodi 20 nur noch Not-Updates bekommen
 
  **xStream wird als Virus angezeigt**
 
