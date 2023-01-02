@@ -883,12 +883,12 @@ Connection refused (Verbindung abgelehnt) bedeutet, dass das Ziel (der Server de
 
 - **Ich bin neu und kenne mich mit Kodi gar nicht aus**
 
-Sollte das der Fall sein, dann bitt erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
+Sollte das der Fall sein, dann bitte erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
 Dazu gibt es im Kodinerds Forum einen tolles Thema: Hilfe für Neulinge
 
 - **Mein Internet Anbieter blockiert viele Seiten (DNS Sperre), was kann ich da machen**
 
-Es kommt immer auf das Endgerät an welches Ihr zur Wiedrgabe verwendet
+Es kommt immer auf das Endgerät an welches Ihr zur Wiedergabe verwendet
 Auf jedem Gerät (z.B. FireTV, PC, NvidaShield usw.) kann am Gerät eine alternative DNS Adresse eingetragen werden, z.B. die von Google (8.8.8.8 & 8.8.4.4)
 Damit wird dann die DNS Sperre von Eurem Internetanbieter umgangen und Ihr könnt die Seiten wieder nutzten
 Noch besser wäre es, die DNS Adresse direkt auf Eurem Router/Modem zu ändern, weil dann alle Geräte im Heimnetzwerk vollen Zugriff  haben und die DNS Sperre umgehen
@@ -902,7 +902,7 @@ Jedoch sobald das Team davon weiß (weil es uns z.B. im Chat mitgeteilt wird), k
 
 - **Wo trage ich meine Benutzerdaten  in xStream ein (z.B. für s.to)**
 
-Wie sschon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
+Wie schon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
 Ein Serienstream Zugang muss von jedem Benutzer auf deren Webseite selbst erstellt werden!!
 
 - **s.to funktioniert nicht in xStream**
