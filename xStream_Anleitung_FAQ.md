@@ -486,6 +486,8 @@ TheMovieDB Helper bietet die Möglichkeit über verschiedene Player (z.B. xStrea
 
 Das Addon TheMovieDB Helper ist ein eigenständiges Addon und dient als Erweiterung für xStream
 
+Eine genau Beschreibung des Addons, Einstellungen und dessen Funktion ist hier zu finden: [TMDB Helper](https://www.kodinerds.net/index.php/Thread/76317-HowTo-TMDB-Helper/)
+
 Informationen aus TMDb -, OMDb - und Trakt-APIs werden mit eigenen Benutzerdaten unterstützt
 
 Die Player Datei muss für jede Seite separat erstellt werden, da die derzeitige Globale xStream Suche, diese Funktion nicht unterstützt
@@ -745,6 +747,13 @@ Dann installierst du den aktuellsten Resolver aus der [.zip von  Github](https:/
 
 ### 3.5 Fehlermeldungen im Betrieb
 
+- **Bei direkter Suche in Serienstream kommt Meldung Error 500 **
+
+In den Einstellungen ist bei Serienstream, bei *Domain auswählen* auf Proxy gestellt
+Als DNS Adresse wird auf dem betroffenem System, die DNS von Cloudflare (1.1.1.1) verwendet
+Es ist offensichtlich so, dass es bei dieser Kombination zu Proxy Probleme mit der Cloudflare DNS kommt
+Abhilfe schafft hier entweder eine andere DNS Adresse (z.B. Google 8.8.8.8 und 8.8.4.4.) zu verwenden oder von Proxy auf s.to umstellen
+
 - **http Timout Fehlermeldung**
 
 Kann an den Webseiten liegen wenn sie lange brauchen zum aufbauen
@@ -883,12 +892,12 @@ Connection refused (Verbindung abgelehnt) bedeutet, dass das Ziel (der Server de
 
 - **Ich bin neu und kenne mich mit Kodi gar nicht aus**
 
-Sollte das der Fall sein, dann bitte erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
+Sollte das der Fall sein, dann bitt erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
 Dazu gibt es im Kodinerds Forum einen tolles Thema: Hilfe für Neulinge
 
 - **Mein Internet Anbieter blockiert viele Seiten (DNS Sperre), was kann ich da machen**
 
-Es kommt immer auf das Endgerät an welches Ihr zur Wiedergabe verwendet
+Es kommt immer auf das Endgerät an welches Ihr zur Wiedrgabe verwendet
 Auf jedem Gerät (z.B. FireTV, PC, NvidaShield usw.) kann am Gerät eine alternative DNS Adresse eingetragen werden, z.B. die von Google (8.8.8.8 & 8.8.4.4)
 Damit wird dann die DNS Sperre von Eurem Internetanbieter umgangen und Ihr könnt die Seiten wieder nutzten
 Noch besser wäre es, die DNS Adresse direkt auf Eurem Router/Modem zu ändern, weil dann alle Geräte im Heimnetzwerk vollen Zugriff  haben und die DNS Sperre umgehen
@@ -902,7 +911,7 @@ Jedoch sobald das Team davon weiß (weil es uns z.B. im Chat mitgeteilt wird), k
 
 - **Wo trage ich meine Benutzerdaten  in xStream ein (z.B. für s.to)**
 
-Wie schon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
+Wie sschon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
 Ein Serienstream Zugang muss von jedem Benutzer auf deren Webseite selbst erstellt werden!!
 
 - **s.to funktioniert nicht in xStream**
@@ -937,7 +946,7 @@ Zu finden unter: Einstellungen (Zahnrad) - System - Addons - Abhängigkeiten ver
 
 Das Team stellt derzeit für Kodi 19 und für Kodi 20 xStream Versionen bereit
 
-BEIDE Versionen haben die gleichen Seiten, jedoch wird die Version 3.5.x (Kodi 18), nach dem Finalen Erscheinen von Kodi 20 nur noch Not-Updates bekommen
+BEIDE Versionen haben die gleichen Seiten, jedoch wird die Version 3.5.x (Kodi 19), nach dem Finalen Erscheinen von Kodi 20 nur noch Not-Updates bekommen
 
  **xStream wird als Virus angezeigt**
 
