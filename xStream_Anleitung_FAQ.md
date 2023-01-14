@@ -756,7 +756,8 @@ Abhilfe schafft hier entweder eine andere DNS Adresse (z.B. Google 8.8.8.8 und 8
 
 - **http Timout Fehlermeldung**
 
-Kann an den Webseiten liegen wenn sie lange brauchen zum aufbauen
+Kann an den Webseiten liegen wenn sie lange brauchen zum aufbauen oder sie ist Offline
+
 Das Problem ist eher temporär, später nocheinmal probieren
 
 - **Bei Flimmerstube ist alles leer, es wird kein Inhalt angezeigt**
