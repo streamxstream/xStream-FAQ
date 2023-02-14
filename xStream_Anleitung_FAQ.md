@@ -891,6 +891,19 @@ Connection refused (Verbindung abgelehnt) bedeutet, dass das Ziel (der Server de
 
 ### 3.6 Wiederkehrende Fragen
 
+- **Wie kann ich mich für den xStream Chatroom anmelden**
+
+Zuerst muss auf Github.com ein Benutzer Konto erstellt werden
+
+Passwörter und E-Mail Adresse sind dann immer auf Github.com zu ändern
+
+Beim Anmelden für den Chatroom folgende Seite öffnen: [Chat Room](https://app.gitter.im/#/room/#streamxstream_community:gitter.im)
+
+Den Heim-Server *gitter.im* wählen und dann auf den blauen *Continue* Knopf drücken
+Bei der Einrichtung alle Schritte erledigen und den Sicherheitsschlüssel bzw. die Sicherheits Phrase unbedingt lokal irgendwo abspeichern
+
+Diese werden bei einem erneuten Login abgefragt
+
 - **Ich bin neu und kenne mich mit Kodi gar nicht aus**
 
 Sollte das der Fall sein, dann bitt erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
