@@ -897,7 +897,11 @@ Zuerst muss auf Github.com ein Benutzer Konto erstellt werden
 
 Passwörter und E-Mail Adresse sind dann immer auf Github.com zu ändern
 
-Beim Anmelden für den Chatroom folgende Seite öffnen: [Chat Room](https://app.gitter.im/#/room/#streamxstream_community:gitter.im)
+Die Software *Element*, wird benötigt um einfachen Zugang zu erhalten, Download hier möglich: [Download](https://element.io/download)
+
+Achtung bei Mobilgeräten: Bei Heim-Server, nicht matrix.org verwenden, sondern *gitter.im* eintragen
+
+Beim Anmelden im Browser, für den Chatroom, folgende Seite öffnen: [Chat Room](https://app.gitter.im/#/room/#streamxstream_community:gitter.im)
 
 Den Heim-Server *gitter.im* wählen und dann auf den blauen *Continue* Knopf drücken
 Bei der Einrichtung alle Schritte erledigen und den Sicherheitsschlüssel bzw. die Sicherheits Phrase unbedingt lokal irgendwo abspeichern
