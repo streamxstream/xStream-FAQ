@@ -899,11 +899,15 @@ Passwörter und E-Mail Adresse sind dann immer auf Github.com zu ändern
 
 Die Software *Element*, wird benötigt um einfachen Zugang zu erhalten, Download hier möglich: [Download](https://element.io/download)
 
-Achtung bei Mobilgeräten: Bei Heim-Server, nicht matrix.org verwenden, sondern *gitter.im* eintragen
+Neue User wählen bei Heim-Server *matrix.org*
+
+Jene User, die schon zuvor bei dem alten gitter.im Chatroom drinnen waren, können bei Heim-Server, *gitter.im* eintragen/verwenden oder *matrix.org*
+Jedoch sollte man dann immer den gewählten Server auf ALLEN Geräten verwenden
 
 Beim Anmelden im Browser, für den Chatroom, folgende Seite öffnen: [Chat Room](https://app.gitter.im/#/room/#streamxstream_community:gitter.im)
 
-Den Heim-Server *gitter.im* wählen und dann auf den blauen *Continue* Knopf drücken
+Den Heim-Server *matrix.org* wählen und dann auf den blauen *Continue* Knopf drücken
+
 Bei der Einrichtung alle Schritte erledigen und den Sicherheitsschlüssel bzw. die Sicherheits Phrase unbedingt lokal irgendwo abspeichern
 
 Diese werden bei einem erneuten Login abgefragt
