@@ -1,6 +1,6 @@
 ﻿# xStream für Kodi - Anleitung/ FAQ
 
-![xStream logo](https://raw.githubusercontent.com/streamxstream/xStream-FAQ/master/Logo%20FAQ.png)
+![xStream logo](https://raw.githubusercontent.com/streamxstream/plugin.video.xstream/matrix/icon.png)
 
 
 - [1. Allgemeines zum Addon](#1-allgemeines-zum-addon)
@@ -130,7 +130,7 @@ Es wird übrigens der ResolveURL von Gujal00 verwendet
 
 Das offizielle Resolver Update wird übrigens 2 mal angeboten (ResolveURL Repo und xStream Repo) und das ist so beabsichtigt
 
-Der Grund: Bei xStream Neuinstallation würde sonst KEIN Resolver installiert werden, wenn er nicht in ebenso in unserer Repo enthalten ist
+Der Grund: Bei xStream Neuinstallation würde sonst KEIN Resolver installiert werden, wenn er nicht ebenso in unserer Repo enthalten ist
 
 Nach der Installation xStream öffnen und am unteren Ende auf *Einstellungen - Resolver Einstellungen*
 Hier dann *Cache Funktion benutzen* deaktivieren (um Fehler zu vermeiden)
@@ -207,8 +207,40 @@ Informationsfenster führen durch den Update Prozess
 Bitte aufmerksam lesen und die Anweisungen befolgen
 
 **xStream Einstellungen**
+
 *ALLGEMEIN*
-Update Funktion xStream und Resolver
+
+**Darstellung**
+
+*Globale Suche an erster Position*
+
+Wenn deaktiviert befindet sich die Globale Suche am unteren Ende der Seiten Anzeige
+und nicht ganz oben
+
+*Zentralisierte Einstellungen anzeigen*
+Wenn deaktiviert, verschwindet der Menüpunkt *Einstellungen* und die darin enthaltenen Funktionen, werden am Ende der Seiten Anzeige aufgelistet
+
+**Inhalt**
+
+*Bevorzugte Sprache*
+
+Hier kann unter den Optionen *Deutsch*, *Englisch*, *Japanisch* und *Alle* gewählt werden, wobei *Alle* jede Sprachen einbezieht 
+
+Zu berücksichtigen ist jedoch, dass die einzelnen Site-Plugins diese Option unterstützen müssen 
+
+*ACHTUNG:*
+
+Wird die ausgewählt Option/Sprache nicht unterstützt, werden auch Inhalte anderer Sprachen nicht angezeigt!!
+
+Alles andere am besten so lassen wie es eingestellt ist
+
+Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü
+
+Hier die Markierung *gesehene Filme* deaktivieren!
+
+*AKTUALISIERUNGEN*
+
+Update Funktion für xStream und Resolver
  
 Diese Funktion installiert automatisch Änderungen an Seiten, am Resolver usw., welche auf der Entwicklerplattform (Github) durchgeführt werden
 
@@ -226,20 +258,9 @@ Wenn in Kodi unter:
 
 Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird xStream trotzdem aktualisiert
 
-**xStream Aktualisierung**
-Für den xStream besteht die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
-
-Als Standard ist aktiviert eingestellt
-
-Es stehen 2 Update Möglichkeiten zur Verfügung: Release und Nightly
+Für xStream besteht die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
 Release ist direkt vom xStream Github und Nightly mit Hotfixes vom xStream Team
-
-Hier könnt Ihr nightly einstellen und seit somit immer auf dem neusten Stand bis zum nächsten Repository Release Update
-
-Es kann auch deaktiviert werden, wenn nicht erwünscht
-
-**Resolver Aktualisierung**
 
 Für den Resolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
 
@@ -271,28 +292,6 @@ Die Benachrichtigungs Funktion kann auch deaktiviert werden: Änderungsprotokoll
 
 Unter Bevorzugte Sprache, kann die gewünschte Sprache für die Seiten ausgewählt werden 
 
-**Darstellung**
-*Globale Suche an erster Position*
-Wenn deaktiviert befindet sich die Globale Suche am unteren Ende der Seiten Anzeige
-und nicht ganz oben
-
-**Zentralisierte Einstellungen anzeigen**
-Wenn deaktiviert, verschwindet der Menüpunkt *Einstellungen* und die darin enthaltenen Funktionen, werden am Ende der Seiten Anzeige aufgelistet
-
-**Inhalt**
-*Bevorzugte Sprache*
-Hier kann unter den Optionen *Deutsch*, *Englisch* und *Alle* gewählt werden, wobei *Alle* beide Sprachen einbezieht 
-
-Zu berücksichtigen ist jedoch, dass die einzelnen Site-Plugins diese Option unterstützen müssen 
-
-Wird also die ausgewählt Option nicht unterstützt werden auch Inhalte anderer Sprache nicht angezeigt
-
-Sonst am besten alles so lassen wie es ist
-
-Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü
-
-Hier die Markierung *gesehene Filme* deaktivieren!
-
 ### 2.3 Indexseite Aktivieren und Deaktivieren
 
 *Standard:* Alle Site-Plugins aktiviert
@@ -311,21 +310,25 @@ Nache einem xStream Update werden auch neu hinzugefügte Seiten automatisch ange
 
 *Anmerkung*
 
-Wenn Ihr Probleme mit s.to, kinox usw. habt, hilft es wenn Ihr Eure DNS Adresse (z.B. auf die von Google 8.8.8.8) ändert
+Wenn Ihr Probleme mit s.to, kinox usw. habt, hilft es wenn Ihr Eure DNS Adresse (z.B. auf die von Google 8.8.8.8 und 8.8.4.4) ändert
 
 Manche Seiten werden von den Internet Providern geblockt
 
-Einge Seiten wie z.B. Flimmerstube, s.to usw. benötigen ein Benutzerkonto auf der Seite, um diese Verwenden zu können
+Einge Seiten wie z.B. Flimmerstube, s.to usw. benötigen ein EIGENES Benutzerkonto auf der Seite, um diese Verwenden zu können
 
 Ausserdem kann bei eingen Seiten (z.B.s.to) die Webseiten Domain in den xStream Einstellungen geändert werden, sollte es Probleme geben
+
 Bei kinox.to erfolgt die Auswahl einer funktionsfähigen Webseite selbständig
 
 ### 2.4 Manuelle und automatische Hosterwahl
 
 Die Hosterwahl als solches ist sehr schlicht und einfach gehalten
+
 Es erinnert stark an die eigentlichen Benuteroberflächen der jeweiligen Streaming-Seiten
 
-Wenn keine besonderen Wünsche bzw. keine entprechende Kenntisse im Bezug auf die Hosterauswahl vorhanden sind, kann die Automatische Hosterwahl verwendet werden. In dieser Einstellung werden darüber hinaus nicht funktionierende Hoster rausgefiltert. 
+Wenn keine besonderen Wünsche bzw. keine entprechende Kenntisse im Bezug auf die Hosterauswahl vorhanden sind, kann die Automatische Hosterwahl verwendet werden
+
+In dieser Einstellung werden darüber hinaus nicht funktionierende Hoster rausgefiltert
 
 **Hosterauswahl**
 
@@ -337,19 +340,20 @@ Bei Aktivierung wird die Hosterauswahl nicht mehr als Pop-Up-Fenster dargestellt
 
 *Automatisch abspielen*
 Automatische Hosterauswahl
+
 Näheres dazu Kap.[2.6 Autoplay Funktion](#26-autoplay-funktion)
 
 **Hosterliste prüfen und sortieren**
 
 Bei Aktivierung werden aus der Hosterliste alle nicht unterstützten Hoster entfernt und nach ihrer Priorität (Resolver Settings) sortiert
 
-Diese kann unter "Resolver Settings" angepasst werden
+Diese kann unter xStream - Einstellungen - Resolver Einstellungen - Universelle Resolver angepasst werden
 
 *Niedrige Werte werden vor hohen Werten gewählt*
 
 *Da xStream und andere Addons den gleichen Resolver verwenden, hat diese Einstellung auch Auswirkung auf diese Addons!!*
 
-Die Deaktivierung diese Features kann auf leistungsschwachen System (z.B. RPi) einen spürbar schnelleren Ablauf bewirken
+Die Deaktivierung dieser Funktion kann auf leistungsschwachen System (z.B. RPi) einen spürbar schnelleren Ablauf bewirken
 
 Es wird die Deaktivierung Empfohlen, da es nicht wirklich notwendig ist (und manchmal für Fehler verantwortlich ist)
 
@@ -584,7 +588,8 @@ Das Addon öffnen und Suchen klicken
 
 Suchen Serie
 
-Im Suchfeld z.B. Arrow eintippen und OK. 
+Im Suchfeld z.B. Arrow eintippen und OK
+
 Im Anschluss das gewünschte Suchergebnis, hier Arrow, auswählen
 
 Staffel und Episode wählen
@@ -631,13 +636,17 @@ Fehler können verschiedene Ursachen haben
 
 OHNE diese Informationen gibt es KEINE Antwort/Hilfe vom Team!!
 
-Fragen welche hier in dieser FAQ mit ein wenig Lesezeit beantwortet werden können, werden im Gitter Chat nicht mehr beantwortet!!
+Diese Informationen können zum Teil direkt in xStream abgefragt werden:
+
+*xStream starten - Einstellungen - Support Informationen anzeigen*
+
+Fragen welche hier in dieser FAQ mit ein wenig Lesezeit beantwortet werden können, werden im xStream Chatroom nicht mehr beantwortet!!
 
 Bitte, schauen, ob der Fehler in einem früheren Post schon beantwortet wurde!
 
 Es kann auch eine fehlerhafte Datei vorliegen, oder die .zip ist falsch aufbereitet
 
-Hilfe bei Probleme bekommt Ihr auf Gitter
+Hilfe bei Probleme bekommt Ihr im Element Chatroom
 
 ### 3.2 Fehler bei Verwendung der Globalen Suche
 
@@ -667,7 +676,7 @@ Im Anschluss das Problem schildern
 
 Bitte Sachlich bleiben und nicht jammern!
 
-***Für die Streaming-Seite s.to können in den Einstellungen alternative Domains bestimmt werden. Nutzt diese, falls die Seite erreichbar ist! Kinox sucht automatisch nach einer funktionsfähigen Webseite***
+***Für die Streaming-Seite s.to können in den Einstellungen alternative Domains bestimmt werden. Nutzt diese, falls die Seite nicht erreichbar ist! Kinox sucht automatisch nach einer funktionsfähigen Webseite***
 
 ### 3.4 Resolver Fehler
 
@@ -750,8 +759,11 @@ Dann installierst du den aktuellsten Resolver aus der [.zip von  Github](https:/
 - **Bei direkter Suche in Serienstream kommt Meldung Error 500 **
 
 In den Einstellungen ist bei Serienstream, bei *Domain auswählen* auf Proxy gestellt
+
 Als DNS Adresse wird auf dem betroffenem System, die DNS von Cloudflare (1.1.1.1) verwendet
+
 Es ist offensichtlich so, dass es bei dieser Kombination zu Proxy Probleme mit der Cloudflare DNS kommt
+
 Abhilfe schafft hier entweder eine andere DNS Adresse (z.B. Google 8.8.8.8 und 8.8.4.4.) zu verwenden oder von Proxy auf s.to umstellen
 
 - **http Timout Fehlermeldung**
@@ -811,7 +823,7 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 
 	- Lösung: Database im Profilordner von xStream löschen, wie folgt:
 	
-	Optionen-Dateimanager-Profil_Ordner-addon_data-plugin.Video.xstream-pluginDB wählen und löschen
+	Einstellungen-System-Dateimanager-Profilverzeichnis-addon_data-plugin.video.xstream-pluginDB wählen und löschen
 		
 - **Anzeige: Es ist mehr als ein Resolver installiert. Bitte löschen**
 
@@ -826,9 +838,7 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 	- script.module.resolveurl
 	- script.module.resolveurl-master
 
-
 	Einfach den Ordner mit "-master" am Ende löschen und die Fehlermeldung ist weg. Und auch das AutoUpdate im xStream funktioniert wieder.
-	
 	
 - **Errno 1 bzw. Errno 8 Fehlermeldung bei Seiten**
 
@@ -840,7 +850,7 @@ Sonderzeichen im Benutzernamen entfernen dann geht es
 
 	Ist diese veraltet kommte es zur Fehlermeldung bei diversen Site-Plugins / Hoster
 	
-	- Lösung: Kodi 18 bzw. Kodi19 verwenden
+	- Lösung: Kodi 19 bzw. Kodi 20 verwenden
 
 - **"HTTPError HTTP Error 403**
 
@@ -914,31 +924,46 @@ Diese werden bei einem erneuten Login abgefragt
 
 - **Ich bin neu und kenne mich mit Kodi gar nicht aus**
 
-Sollte das der Fall sein, dann bitt erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
+Sollte das der Fall sein, dann bitte erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
 Dazu gibt es im Kodinerds Forum einen tolles Thema: Hilfe für Neulinge
+
+- **Wo kann ich die Support Informationen in xStream finden/abfragen**
+
+xStream öffnen - Einstellungen - Support Informationen anzeigen
 
 - **Mein Internet Anbieter blockiert viele Seiten (DNS Sperre), was kann ich da machen**
 
-Es kommt immer auf das Endgerät an welches Ihr zur Wiedrgabe verwendet
-Auf jedem Gerät (z.B. FireTV, PC, NvidaShield usw.) kann am Gerät eine alternative DNS Adresse eingetragen werden, z.B. die von Google (8.8.8.8 & 8.8.4.4)
+Es kommt immer auf das Endgerät an welches Ihr zur Wiedergabe verwendet
+
+Auf jedem Gerät (z.B. FireTV, PC, NvidaShield usw.) kann direkt am Gerät eine alternative DNS Adresse eingetragen werden, z.B. die von Google (8.8.8.8 & 8.8.4.4)
+
 Damit wird dann die DNS Sperre von Eurem Internetanbieter umgangen und Ihr könnt die Seiten wieder nutzten
+
 Noch besser wäre es, die DNS Adresse direkt auf Eurem Router/Modem zu ändern, weil dann alle Geräte im Heimnetzwerk vollen Zugriff  haben und die DNS Sperre umgehen
+
 Einfach bei Google Suchen (z.B. DNS Adresse bei FireTV ändern/eintragen) und der Anleitung dort folgen
+
 Wir können das hier leider nicht für jedes Gerät beschreiben wie das geht
 
 - **Mein Lieblingshoster (z.B. voe) funktioniert schon wieder nicht**
+- 
 Das liegt daran, dass die die Hoster oft Ihre Domain ändern, damit Nutzer von Addons wie xStream es schwerer haben deren Server zu verwenden
+
 Das Team xStream hat darauf keinen Einfluss
+
 Jedoch sobald das Team davon weiß (weil es uns z.B. im Chat mitgeteilt wird), kommt ein Hotfix über das Resolver Nightly Update
 
 - **Wo trage ich meine Benutzerdaten  in xStream ein (z.B. für s.to)**
 
-Wie sschon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
-Ein Serienstream Zugang muss von jedem Benutzer auf deren Webseite selbst erstellt werden!!
+Wie schon weiter oben beschrieben, muss dazu das Einstellungsmenü von xStream geöffnet werden, zum Menü Punkt Konten Scrollen und dort bei Serienstream die Zugangsdaten eintragen
+
+**Ein Serienstream Zugang muss von jedem Benutzer, auf deren Webseite, selbst erstellt werden!!**
 
 - **s.to funktioniert nicht in xStream**
 
-Sollte das der Fall sein ,dann bitte die Webseite von s.to öffnen und prüfen ob Ihr überhaupt Zugriff auf die Seite habt. Diese Seite wird von sehr vielen Internetanbietern blockiert
+Sollte das der Fall sein ,dann bitte die Webseite von s.to öffnen und prüfen ob Ihr überhaupt Zugriff auf die Seite habt
+
+Diese Seite wird von sehr vielen Internetanbietern blockiert
 
 Lösen könnt nur Ihr selbst das Problem. Ihr müss auf Eurem Router, FireTV oder PC die DNS Adresse ändern, z.B. auf die von Google oder Quad9
 
@@ -973,12 +998,15 @@ BEIDE Versionen haben die gleichen Seiten, jedoch wird die Version 3.5.x (Kodi 1
  **xStream wird als Virus angezeigt**
 
 Wenn die xStream Repository von unserem Github herunter geladen wurde, so handelt es sich zu 100% NICHT um einen Virus
+
 Alternativ, kann in Kodi auch unsere Webseite als direkt Download und zum Installieren von xStream verwendet werden
+
 Virenscanner deaktivieren für den Zeitraum der xStream Installation
 
  **Ich nutz xStream nicht aus Eurer xStreamRepo bzw. von einer anderen Webseite usw.**
 
 Sollte das so sein können wir nicht für den aktuellen Stand garantieren und bei Problemen helfen
+
 Deinstalliere alles von xStream (Addon+Repo) und installiere unsere Version, so wie es oben beschrieben wird
 
 ## 4. Fehlerbericht über Log-Datei
