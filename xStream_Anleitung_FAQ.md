@@ -756,7 +756,13 @@ Dann installierst du den aktuellsten Resolver aus der [.zip von  Github](https:/
 
 ### 3.5 Fehlermeldungen im Betrieb
 
-- **Bei direkter Suche in Serienstream kommt Meldung Error 500 **
+- **ModuleNotFoundError: No Module named "serienstream_to"**
+
+Wird diese oder ähnliche Meldungen angezeigt, so bedeutet dies, dass es Änderungen im jeweiligen Seiten Modul (z.B. Serienstream) gab. Diese Meldung erscheint eigentlich nur, wenn Favoriten/SuperFavoriten oder Widget angelegt wurden/verwendet werden
+
+Um diese Meldung wieder los zu werden, müssen die Favoriten oder Widget neu angelegt werden
+
+- **Bei direkter Suche in Serienstream kommt Meldung Error 500**
 
 In den Einstellungen ist bei Serienstream, bei *Domain auswählen* auf Proxy gestellt
 
