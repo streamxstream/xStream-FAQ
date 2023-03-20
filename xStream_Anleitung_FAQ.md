@@ -63,19 +63,20 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 | Dokus4me                     	     | [x]       | [x]          |       |        	 	|
 | Filmpalast                         | [x]       | [x]          |       |        		|
 | Flimmerstube                       | [x]       | [x]          | [x]   |        		|
-| HD Filme.top                       | [x]       | [x]          |       |               	|
+| HD Filme                           | [x]       | [x]          |       |               	|
 | Kinofox                     	     | [x]       | [x]          |       |        		|
 | KinoGer                     	     | [x]       | [x]          |       |			|
 | Kinokiste                          | [x]       | [x]          |       |			|
-| KinoKiste.tech                     | [x]       | [x]          |       |       		|
-| Kinomax.me                         | [x]       | [x]          |       |               	|
 | Kinox                     	     | [x]       | [x]          |       |         		|
 | KKiste                     	     | [x]       | [x]          |       |                       |
 | MegaKino                           | [x]       | [x]          |       |        		|
+| Movie2k                            | [x]       | [x]          |       |           	        |
 | Movie4k                            | [x]       | [x]          |       |           	        |
 | Movieking                          | [x]       | [x]          |       |        		|
 | Netzkino                           | [x]       | [x]          |       |        		|
 | Serienstream                       | [x]       | [x]          | [x]   |        		|
+| Streamcloud                        | [x]       | [x]          |       |        		|
+| Streamkiste                        | [x]       | [x]          |       |        		|
 | Streamworld                        | [x]       | [x]          |       |        		|
 | XCine                     	     | [x]       | [x]          |       |                	|
 
