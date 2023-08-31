@@ -22,6 +22,13 @@ Fixes zu Seiten bzw. neue Seiten am besten als PullRequest einreichen (oder auf 
 
 ***
 
+Pull Requests einreichen oder Fehler melden könnt Ihr hier.
+### | [Pull Request Nightly](https://github.com/streamxstream/plugin.video.xstream/compare)
+
+### | [Fehler melden](https://github.com/streamxstream/plugin.video.xstream/issues/new?assignees=&labels=Fehlermeldung&projects=&template=fehler-melden.md&title=Fehler+Melden)
+
+***
+
 Derzeit unterstützt die xStream Version folgende Site Plugins bei der Stream Suche.
 ### | [Site Plugins](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md#11-verf%C3%BCgbare-webseiten)
 
