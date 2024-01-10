@@ -63,11 +63,11 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 | CineClix                     	     | [x]       | [x]          |       |        	 	|
 | Cinemathek                 	     | [x]       | [x]          |       |        	 	|
 | Dokus4me                     	     | [x]       | [x]          |       |        	 	|
+| FilmKiste                          | [x]       | [x]          |       |        		|
 | Filmpalast                         | [x]       | [x]          |       |        		|
 | Flimmerstube                       | [x]       | [x]          | [x]   |        		|
 | HD Filme                           | [x]       | [x]          |       |               	|
 | Kino                     	     | [x]       | [x]          |       |         		|
-| Kinofox                     	     | [x]       | [x]          |       |        		|
 | KinoGer                     	     | [x]       | [x]          |       |			|
 | Kinokiste                          | [x]       | [x]          |       |			|
 | Kinox                     	     | [x]       | [x]          |       |         		|
@@ -76,13 +76,11 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 | Moflix-Stream                      | [x]       | [x]          |       |         		|
 | Movie2k                            | [x]       | [x]          |       |           	        |
 | Movie4k                            | [x]       | [x]          |       |           	        |
-| Movieking                          | [x]       | [x]          |       |        		|
 | Netzkino                           | [x]       | [x]          |       |        		|
 | Serienstream                       | [x]       | [x]          | [x]   |        		|
 | Streamcloud                        | [x]       | [x]          |       |        		|
 | Streamen                           | [x]       | [x]          |       |        		|
 | StreamPalace                       | [x]       | [x]          |       |        		|
-| Stumbleupon                	     | [x]       | [x]          |       |         		|
 | XCine                     	     | [x]       | [x]          |       |                	|
 
 Empfehlungen und Vorschläge für neue Seiten können in unserem Chatroom oder als PullRequest eingereicht werden
