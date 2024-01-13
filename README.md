@@ -46,4 +46,4 @@ Für alles weitere findet Ihr auch Informationen auf unserer Webseite die ihr au
 
 Oder nutzt unseren Chat wenn Ihr irgendwelche anderen Fragen um xStream beantwortet haben möchtet.
 
-### | [Matrix Chat](https://matrix.to/#/#streamxstream_xTeam:gitter.im)
+### | [Matrix Chat](https://matrix.to/#/#streamxstream_community:gitter.im)
