@@ -163,7 +163,7 @@ Das plugin alleine (wenn gewünscht), xStream Nightly, bekommt Ihr direkt von Gi
 - [xStream Nightly](https://github.com/streamxstream/plugin.video.xstream)
 
 
-*Die Nightly Version gilt als Experimentell, jedoch ist sie viel aktueller und neu Seiten sind hier zuerst enthalten*
+*Die Nightly Version gilt als Experimentell, jedoch ist sie viel aktueller und neue Seiten sind hier zuerst enthalten*
 
 *Fehler können daher vorhanden sein*
 
