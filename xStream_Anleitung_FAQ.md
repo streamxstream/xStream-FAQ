@@ -776,7 +776,7 @@ Es ist offensichtlich so, dass es bei dieser Kombination zu Proxy Probleme mit d
 
 Abhilfe schafft hier entweder eine andere DNS Adresse (z.B. Google 8.8.8.8 und 8.8.4.4.) zu verwenden oder von Proxy auf s.to umstellen
 
-- **http Timout Fehlermeldung bzw. the read operation timeout**
+- **http Timeout Fehlermeldung bzw. the read operation timeout**
 
 Kann an den Webseiten liegen wenn sie lange brauchen zum aufbauen oder sie ist Offline
 
@@ -796,15 +796,21 @@ Es ist auch dann alles leer, wenn die Registrierung auf der Website nicht korrek
 
 Die Registrierung muss über einen Link endgültig bestätigt werden. Erst dann die Login-Daten in xStream eintragen
 
-- **Problem mit HDFilme in xStream**
+- **CLOUDFLARE-SCHUTZ AKTIV**
 
-Wenn ich einen Film gucke springt der Film regelmäßig um ca. 1 Sekunde nach vorn
+Das ist eine Fehlermeldung die kommt wenn eine Seite wie z. B. Filmpalast den Anti-BOT-Schutz von 
 
-Das passiert so alle 1-2 Minuten und ist natürlich störend
+CLOUDFLARE aktiviert hat. Dann ist die Seite nicht mehr direkt zugänglich sondern es kommt entweder 
 
-Das Problem ist eigentlich in jedem Kodi Forum bekannt, und ist bei HDFilme Server 0
+eine Art Warte-Seite wo der Bot prüft ob man ein Mensch ist oder man muss ein Capcha lösen, Haken klicken etc.
 
-Das Problem kann man aktuell leider nicht lösen
+Kodi/xStream kann das nicht umgehen und hat bisher immer eine nichtssagende Fehlermeldung herausgegeben.
+
+Das haben wir nun geändert.
+
+Was könnt ihr gegen den Schutz machen? Rein gar nichts!! Einfach abwarten bis dieser nach ein paar Stunden bzw.
+
+Tagen wieder verschwindet, und solange eine der anderen Seiten oder die VoD Dienste benutzen.
 
 - **Beim Starten von xStream kommt folgende Fehlermeldung**
 
