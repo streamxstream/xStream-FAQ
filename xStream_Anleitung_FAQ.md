@@ -60,14 +60,11 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 |  Site Plugin                       | Enthalten | Funktioniert | Login | Fehler Beschreibung   |
 |------------------------------------|:---------:|:------------:|:-----:|:---------------------:|
 | Anicloud                     	     | [x]       | [x]          | [x]   |        		|
-| CineClix                     	     | [x]       | [x]          |       |        	 	|
 | Cinemathek                 	     | [x]       | [x]          |       |        	 	|
 | Dokus4me                     	     | [x]       | [x]          |       |        	 	|
-| FilmKiste                          | [x]       | [x]          |       |        		|
 | Filmpalast                         | [x]       | [x]          |       |        		|
 | Flimmerstube                       | [x]       | [x]          | [x]   |        		|
 | HD Filme                           | [x]       | [x]          |       |               	|
-| Kino                     	     | [x]       | [x]          |       |         		|
 | KinoGer                     	     | [x]       | [x]          |       |			|
 | Kinokiste                          | [x]       | [x]          |       |			|
 | Kinox                     	     | [x]       | [x]          |       |         		|
@@ -79,8 +76,6 @@ Hier ist eine Übersicht der derzeitigen Seiten in xStream.
 | Netzkino                           | [x]       | [x]          |       |        		|
 | Serienstream                       | [x]       | [x]          | [x]   |        		|
 | Streamcloud                        | [x]       | [x]          |       |        		|
-| Streamen                           | [x]       | [x]          |       |        		|
-| StreamPalace                       | [x]       | [x]          |       |        		|
 | XCine                     	     | [x]       | [x]          |       |                	|
 
 Empfehlungen und Vorschläge für neue Seiten können in unserem Chatroom oder als PullRequest eingereicht werden
