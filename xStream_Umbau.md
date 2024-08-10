@@ -1,29 +1,4 @@
-﻿
 
-
-***Im xStream Repository ist auch das Repository ResolveURL enthalten, welche noch zusätzlich selbst installiert werden muss!!***
-
-Wenn die ResolveURL Repository installiert wird, aktualisiert sich auch der Resolver automatisch
-
-Es wird übrigens der ResolveURL von Gujal00 verwendet
-
-Das offizielle Resolver Update wird übrigens 2 mal angeboten (ResolveURL Repo und xStream Repo) und das ist so beabsichtigt
-
-Der Grund: Bei xStream Neuinstallation würde sonst KEIN Resolver installiert werden, wenn er nicht ebenso in unserer Repo enthalten ist
-
-Nach der Installation xStream öffnen und am unteren Ende auf *Einstellungen - Resolver Einstellungen*
-Hier dann *Cache Funktion benutzen* deaktivieren (um Fehler zu vermeiden)
-
-
-
-
-
-  
-### 2.2 Einstellungen Allgemein und Einstellungen xStream
-
-Zu den xStream Einstellungen gelangt man am einfachsten, wenn man xStream startet und am unteren Ende Einstellungen wählt
-
-**Hier befinden sich nun verschiedene Auswahlmöglichkeiten:**
 
 *Support Informationen anzeigen*
 Nach Auswahl werden System Informationen angezeigt, welche für die Hilfe im Chat benötigt werden
@@ -36,109 +11,11 @@ Hiermit kann eine Update vom Resolver oder von xStream *erzwungen* werden
 Informationsfenster führen durch den Update Prozess
 Bitte aufmerksam lesen und die Anweisungen befolgen
 
-**xStream Einstellungen**
 
-*ALLGEMEIN*
 
-**Darstellung**
 
-*Globale Suche an erster Position*
 
-Wenn deaktiviert befindet sich die Globale Suche am unteren Ende der Seiten Anzeige
-und nicht ganz oben
 
-*Zentralisierte Einstellungen anzeigen*
-Wenn deaktiviert, verschwindet der Menüpunkt *Einstellungen* und die darin enthaltenen Funktionen, werden am Ende der Seiten Anzeige aufgelistet
-
-**Inhalt**
-
-*Bevorzugte Sprache*
-
-Hier kann unter den Optionen *Deutsch*, *Englisch*, *Japanisch* und *Alle* gewählt werden, wobei *Alle* jede Sprachen einbezieht 
-
-Zu berücksichtigen ist jedoch, dass die einzelnen Site-Plugins diese Option unterstützen müssen 
-
-*ACHTUNG:*
-
-Wird die ausgewählt Option/Sprache nicht unterstützt, werden auch Inhalte anderer Sprachen nicht angezeigt!!
-
-Alles andere am besten so lassen wie es eingestellt ist
-
-Wenn gesehene Filme auf einmal weg sind, liegt das an den Einstellungen im Seitenmenü
-
-Hier die Markierung *gesehene Filme* deaktivieren!
-
-*AKTUALISIERUNGEN*
-
-Update Funktion für xStream und Resolver
- 
-Diese Funktion installiert automatisch Änderungen an Seiten, am Resolver usw., welche auf der Entwicklerplattform (Github) durchgeführt werden
-
-Das Updatet nimmt die ausgewählte Version (nightly oder release)
-
-Dadurch werden Fehler/Bugs/Error, schnell & einfach behoben
-
-Als Standard ist aktiviert eingestellt, es kann natürlich auch deaktiviert werden wenn nicht erwünscht
-
-Dieses Auto-Update wird nur ausgeführt mit dem Kodi Start und wird auch durch eine Meldung angezeigt
-
-Diese xStream Auto-Update Funktion arbeitet Unabhängig von den KODI Einstellungen
-
-Wenn in Kodi unter: 
-
-Optionen-Einstellungen-Addons-Seitenmenü, Automatische Aktualisierung auf AUS gestellt ist, wird xStream trotzdem aktualisiert
-
-Für xStream besteht die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
-
-Release ist direkt vom xStream Github und Nightly mit Hotfixes vom xStream Team
-
-Für den Resolver besteht auch die Möglichkeit schnell an die neusten Updates zu kommen um nicht auf ein Release warten zu müssen
-
-Als Standard ist aktiviert eingestellt
-
-Es stehen 2 Update Möglichkeiten zur Verfügung: Release und Nightly
-
-Release ist direkt vom Gujal00 Github und Nightly mit Anpassungen vom Team
-Das Gujal00 Release immer aktuell!
-
-*Grundsätzlich sollte/soll jeder das Gujall00 Release einstellen* und nur bei Problemen z.b. mit voe, unsere Nightly ausführen
-
-Im Resolver Nightly sind nur "Notfixes" enthalten, bis diese auch bei Gujall hinzugefügt werden 
-
-Das Release im Resolver Nightly ist NICHT das Release im Repo sondern neuer,weil es direkt vom Github geladen wird sobald es dort etwas neues gibt
-
-Es kann auch deaktiviert werden, wenn nicht erwünscht
-
-Beachtet an dieser Stelle, dass *Nighly's* auch Fehler enthalten können
-
-**Benachrichtigungen (ab xStream 4.0)**
-*Vollständig*
-Bei Vollständig ist der Text, beim xStream Start immer zu sehen und zeigt die Änderungen an
-
-*Einfach*
-Bei Einfach wird der Text nur dann angezeigt, wenn auch wirklich ein Update installiert wird und zeigt die neusten Änderungen an
-
-Die Benachrichtigungs Funktion kann auch deaktiviert werden: Änderungsprotokoll nach Aktualisierung anzeigen
-
-Unter Bevorzugte Sprache, kann die gewünschte Sprache für die Seiten ausgewählt werden 
-
-### 2.3 Indexseite Aktivieren und Deaktivieren
-
-*Standard:* Alle Site-Plugins aktiviert
-
-In den Einstellungen, unter dem Menüpunkt *Index Seiten 1+2*, besteht die Möglichkeit bestimmte Seiten an bzw. auszuschalten
-
-Dies kann von Nutzen sein, wenn kein Interesse an bestimmten Medien besteht
-
-Diese werden dann auch nicht in der globalen Suche angezeigt
-
-Zusätzlich kann man auswählen, ob bzw. welche Seiten bei Durchführung der Globalen Suche, durchsucht werden sollen.
-
-Hier **muß** mindesten eine Seite ausgewählt werden, sonst kann das Fenster nicht geschlossen werden!!
-
-Nache einem xStream Update werden auch neu hinzugefügte Seiten automatisch angezeigt
-
-*Anmerkung*
 
 Wenn Ihr Probleme mit s.to, kinox usw. habt, hilft es wenn Ihr Eure DNS Adresse (z.B. auf die von Google 8.8.8.8 und 8.8.4.4) ändert
 
