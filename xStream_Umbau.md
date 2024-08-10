@@ -16,21 +16,6 @@ Bitte aufmerksam lesen und die Anweisungen befolgen
 
 
 
-
-Wenn Ihr Probleme mit s.to, kinox usw. habt, hilft es wenn Ihr Eure DNS Adresse (z.B. auf die von Google 8.8.8.8 und 8.8.4.4) ändert
-
-Manche Seiten werden von den Internet Providern geblockt
-
-Einge Seiten wie z.B. Flimmerstube, s.to usw. benötigen ein EIGENES Benutzerkonto auf der Seite, um diese Verwenden zu können
-
-Ausserdem kann bei eingen Seiten (z.B.s.to) die Webseiten Domain in den xStream Einstellungen geändert werden, sollte es Probleme geben
-
-
-
-
-
-
-
 ### 2.4 Manuelle und automatische Hosterwahl
 
 Die Hosterwahl als solches ist sehr schlicht und einfach gehalten
@@ -45,22 +30,6 @@ In dieser Einstellung werden darüber hinaus nicht funktionierende Hoster rausge
 
 
 
-**Hosterauswahl**
-
-*Dialogansicht (Standard)*
-Bei Aktivierung wird die Hosterauswahl als Pop-Up Fenster dargestellt
-
-*Listenansicht*
-Bei Aktivierung wird die Hosterauswahl nicht mehr als Pop-Up-Fenster dargestellt, sondern als normale Verzeichnisliste
-
-*Automatisch abspielen*
-Automatische Hosterauswahl
-
-Näheres dazu Kap.[2.6 Autoplay Funktion](#26-autoplay-funktion)
-
-**Hosterliste prüfen und sortieren**
-
-Bei Aktivierung werden aus der Hosterliste alle nicht unterstützten Hoster entfernt und nach ihrer Priorität (Resolver Settings) sortiert
 
 Diese kann unter xStream - Einstellungen - Resolver Einstellungen - Universelle Resolver angepasst werden
 
@@ -259,21 +228,6 @@ Was einmal gesucht wurde, ist im Reiter Suchen immer zu sehen und kann durch Cle
 
 Weitere Informationen zur Player Datei sind hier zu finden: [Link](https://github.com/jurialmunkey/plugin.video.themoviedb.helper/wiki/Player-Function)
 
-## 3. Bekannte Probleme
-
-### 3.1 Fehler bei der Installation
-
-Fehler können verschiedene Ursachen haben
-
-**Bei Hilfe bitte immer folgendes bekannt geben:**
-
-**Kodi Version, Betriebssystem, xStream Version, Resolver Version, genaue Fehlerbeschreibung und eventuell Kodi Log, !**
-
-OHNE diese Informationen gibt es KEINE Antwort/Hilfe vom Team!!
-
-Diese Informationen können zum Teil direkt in xStream abgefragt werden:
-
-*xStream starten - Einstellungen - Support Informationen anzeigen*
 
 
 
@@ -290,17 +244,6 @@ Um schnelle Abhilfe zu leisten lohnt es sich in diesem Fall durchaus die Entwick
 
 
 
-
-
-- **Bei direkter Suche in Serienstream kommt Meldung Error 500**
-
-In den Einstellungen ist bei Serienstream, bei *Domain auswählen* auf Proxy gestellt
-
-Als DNS Adresse wird auf dem betroffenem System, die DNS von Cloudflare (1.1.1.1) verwendet
-
-Es ist offensichtlich so, dass es bei dieser Kombination zu Proxy Probleme mit der Cloudflare DNS kommt
-
-Abhilfe schafft hier entweder eine andere DNS Adresse (z.B. Google 8.8.8.8 und 8.8.4.4.) zu verwenden oder von Proxy auf s.to umstellen
 
 - **http Timeout Fehlermeldung bzw. the read operation timeout**
 
@@ -412,45 +355,16 @@ Connection refused (Verbindung abgelehnt) bedeutet, dass das Ziel (der Server de
 
 
 
-- **Ich bin neu und kenne mich mit Kodi gar nicht aus**
-
-Sollte das der Fall sein, dann bitte erst einmal mit den nötigsten und wichtigsten Kodi Grundlagen befassen und erst dann dieses Addon nutzen. Fragen zu Kodi Grundlagen beantworten wir nicht
-Dazu gibt es im Kodinerds Forum einen tolles Thema: Hilfe für Neulinge
-
 - **Wo kann ich die Support Informationen in xStream finden/abfragen**
 
 xStream öffnen - Einstellungen - Support Informationen anzeigen
 
-- **Mein Internet Anbieter blockiert viele Seiten (DNS Sperre), was kann ich da machen**
-
-Es kommt immer auf das Endgerät an welches Ihr zur Wiedergabe verwendet
-
-Auf jedem Gerät (z.B. FireTV, PC, NvidaShield usw.) kann direkt am Gerät eine alternative DNS Adresse eingetragen werden, z.B. die von Google (8.8.8.8 & 8.8.4.4)
-
-Damit wird dann die DNS Sperre von Eurem Internetanbieter umgangen und Ihr könnt die Seiten wieder nutzten
-
-Noch besser wäre es, die DNS Adresse direkt auf Eurem Router/Modem zu ändern, weil dann alle Geräte im Heimnetzwerk vollen Zugriff  haben und die DNS Sperre umgehen
-
-Einfach bei Google Suchen (z.B. DNS Adresse bei FireTV ändern/eintragen) und der Anleitung dort folgen
-
-Wir können das hier leider nicht für jedes Gerät beschreiben wie das geht
 
 - **Mein Lieblingshoster (z.B. voe) funktioniert schon wieder nicht**
 - 
 Das liegt daran, dass die die Hoster oft Ihre Domain ändern, damit Nutzer von Addons wie xStream es schwerer haben deren Server zu verwenden
 
 
-
-
-- **s.to funktioniert nicht in xStream**
-
-Sollte das der Fall sein ,dann bitte die Webseite von s.to öffnen und prüfen ob Ihr überhaupt Zugriff auf die Seite habt
-
-Diese Seite wird von sehr vielen Internetanbietern blockiert
-
-Lösen könnt nur Ihr selbst das Problem. Ihr müss auf Eurem Router, FireTV oder PC die DNS Adresse ändern, z.B. auf die von Google oder Quad9
-
-Wie das geht bitte selbst suchen über Google, ist nicht schwer und hat nix mit xStream zu tun
 
 - **s.to funktioniert nicht in xStream, auf der Webseite aber schon**
 
